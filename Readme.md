@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Михаил Терешин](https://up.htmlacademy.ru/htmlcss/37/user/2304065).
-* Наставник: `Неизвестно`.
+* Наставник: `Ирина Малиновская` (https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
