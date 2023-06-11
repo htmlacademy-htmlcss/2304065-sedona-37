@@ -76,6 +76,14 @@ body {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+  color: #000000;
+}
+
+.subscribe-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 /* subtitle text */
@@ -95,6 +103,12 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
+  text-align: center;
+}
+
+.subscribe-subtitle-text {
+  font-size: 22px;
+  line-height: 26px;
   text-align: center;
 }
 
@@ -130,3 +144,13 @@ body {
 }
 
 /* subscribe */
+
+.subscribe-index {
+  background-image: url("../images/index/subscribe-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* footer */
