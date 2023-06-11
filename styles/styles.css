@@ -69,7 +69,8 @@ body {
 /* title */
 
 .advantages-title,
-.services-title {
+.services-title,
+.search-title {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -79,7 +80,8 @@ body {
 
 /* subtitle text */
 
-.advantages-subtitle {
+.advantages-subtitle,
+.services-subtitle {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -87,14 +89,20 @@ body {
   text-transform: uppercase;
 }
 
-.advantages-subtitle-text {
+.advantages-subtitle-text,
+.service-subtitle-text,
+.search-subtitle-text {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
   text-align: center;
 }
 
-/* advantages */
+/* advantages and services list */
+
+.advantages {
+  background-color: #ffffff;
+}
 
 .advantages-img-description {
   background-color: #82B3D3;
@@ -102,14 +110,23 @@ body {
   text-align: center;
 }
 
-.advantages-item-second {
+.advantages-item-second,
+.services-item-second {
   background-color: rgba(131, 179, 211, 0.12);
   text-align: center;
 }
 
-.advantages-item-second-dark {
+.advantages-item-second-dark,
+.services-item-second-dark {
   background-color: rgba(131, 179, 211, 0.2);
   text-align: center;
 }
 
-/* services */
+/* section search */
+
+.search {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+/* subscribe */
