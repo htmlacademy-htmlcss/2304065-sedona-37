@@ -66,9 +66,10 @@ body {
   vertical-align: middle;
 }
 
-/* advantages */
+/* title */
 
-.advantages-title {
+.advantages-title,
+.services-title {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -76,23 +77,29 @@ body {
   text-transform: uppercase;
 }
 
+/* subtitle text */
+
 .advantages-subtitle {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages-subtitle-text {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
   text-align: center;
 }
 
+/* advantages */
+
 .advantages-img-description {
   background-color: #82B3D3;
   color: #ffffff;
   text-align: center;
-}
-
-.advantages-title {
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: 700;
 }
 
 .advantages-item-second {
