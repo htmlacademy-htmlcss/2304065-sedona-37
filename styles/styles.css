@@ -24,9 +24,9 @@ body {
   background-color: #ffffff;
 }
 
-.visually-hidden {
+/*.visually-hidden {
   visibility: hidden;
-} /*Как правильно прописать класс: сейчас мы зарезервировали место под текст. display: none не читается скринридерами*/
+} Как правильно прописать класс: сейчас мы зарезервировали место под текст. display: none не читается скринридерами*/
 
 /* header */
 
@@ -39,6 +39,7 @@ body {
   text-decoration: none;
 }
 
+/*на будущее
 .navigation-link-search {
   background-image: url("../images/search.svg");
   background-position: 50% 50%;
@@ -51,4 +52,12 @@ body {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-color: #ffffff;
+}
+*/
+
+/* main */
+
+.main-hero {
+  background-image: url("../images/index/index-background.jpg");
+
 }
