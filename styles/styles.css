@@ -79,7 +79,8 @@ body {
   color: #000000;
 }
 
-.subscribe-title {
+.subscribe-title,
+.catalog-products-title {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -205,4 +206,12 @@ body {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
+  color: #000000;
+}
+
+.select-range {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
 }
