@@ -125,6 +125,10 @@ body {
   text-align: center;
 }
 
+.subscribe-catalog .subscribe-subtitle-text {
+  color: #333333;
+}
+
 /* advantages and services list */
 
 .advantages {
@@ -163,6 +167,12 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   color: #ffffff;
+  text-align: center;
+}
+
+.subscribe-catalog {
+  background-color: #ffffff;
+  color: #000000;
   text-align: center;
 }
 
@@ -266,7 +276,8 @@ body {
   background-color: #82B3D3;
 }
 
-.button-like {
+.button-like,
+.button-apply {
   font-size: 16px;
   line-height: 20px;
   background-color: #82B3D3;
@@ -274,6 +285,10 @@ body {
 
 .button-like-selected {
   background-color: #7DB54F;
+}
+
+.button-reset{
+  background-color: rgba(255, 255, 255, 0);
 }
 
 /* pagination */
