@@ -59,5 +59,8 @@ body {
 
 .main-hero {
   background-image: url("../images/index/index-background.jpg");
-
+  background-color: #ffffff;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
 }
