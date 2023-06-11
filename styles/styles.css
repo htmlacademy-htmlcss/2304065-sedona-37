@@ -86,6 +86,18 @@ body {
   text-transform: uppercase;
 }
 
+.catalog-filters-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+
 /* subtitle text */
 
 .advantages-subtitle,
@@ -154,3 +166,43 @@ body {
 }
 
 /* footer */
+
+.footer-contacts {
+  background-color: #ffffff;
+}
+
+.footer-phone-link {
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+  font-style: normal;
+}
+
+/* filters */
+
+.inner-header {
+  background-color: #000000;
+  background-image: url("../images/catalog/catalog-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.breadcrumds-index-link {
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.catalog-filters-list {
+  line-height: 23px;
+}
+
+.price-min,
+.price-max {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
