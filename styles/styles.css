@@ -215,3 +215,102 @@ body {
   font-weight: 400;
   color: #333333;
 }
+
+/* catalog hotels */
+
+.catalog-products {
+  background-color: #ffffff;
+}
+
+.products-title-link {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+}
+
+.products-rate {
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #F2F2F2;
+}
+
+/* buttons */
+
+.button {
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-want,
+.button-more {
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #756157;
+}
+
+.button-search {
+  font-size: 20px;
+  line-height: 36px;
+  background-color: #756157;
+}
+
+.button-subscribe {
+  font-size: 20px;
+  line-height: 36px;
+  background-color: #82B3D3;
+}
+
+.button-like {
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #82B3D3;
+}
+
+.button-like-selected {
+  background-color: #7DB54F;
+}
+
+/* pagination */
+
+.pagination-list {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.pagination-item {
+  background-color: #82B3D3;
+}
+
+.pagination-item-active {
+  background-color: #F2F2F2;
+}
+
+.pagination-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.pagination-link-active {
+  color: #000000;
+  text-decoration: none;
+}
+
+.pagination-item-all {
+  background-color: #ffffff;
+}
+
+.pagination-link-all {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #000000;
+  text-decoration: none;
+}
