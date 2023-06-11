@@ -1,6 +1,6 @@
 @font-face {
   font-family: "PT Sans";
-  src: url("../fonts/ptsans-400.woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "PT Sans";
-  src: url("../fonts/ptsans-700.woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -21,5 +21,34 @@ body {
   line-height: 21px;
   font-style: normal;
   color: #333333;
-  background-color: #F2F2F2;
+  background-color: #ffffff;
+}
+
+.visually-hidden {
+  visibility: hidden;
+} /*Как правильно прописать класс: сейчас мы зарезервировали место под текст. display: none не читается скринридерами*/
+
+/* header */
+
+.navigation-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navigation-link-search {
+  background-image: url("../images/search.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+.navigation-link-favorites {
+  background-image: url("../images/favorites.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
 }
