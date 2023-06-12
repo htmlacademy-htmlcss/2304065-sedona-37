@@ -123,6 +123,10 @@ body {
   text-align: left;
 }
 
+.text-white {
+  color: #ffffff;
+}
+
 /* plate */
 
 .plate {
@@ -175,7 +179,7 @@ body {
 /* filters */
 
 .inner-header {
-  background-color: #000000;
+  background-color: #8e6456;
   background-image: url("../images/catalog/catalog-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
