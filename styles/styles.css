@@ -92,6 +92,12 @@ body {
   text-align: center;
 }
 
+.text-40 {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+}
+
 .advantages-item-basic {
   color: #ffffff;
 }
@@ -101,6 +107,7 @@ body {
 .nonecase {
   text-transform: none;
   text-decoration: none;
+  font-style: normal;
 }
 
 .text-left {
@@ -147,24 +154,14 @@ body {
   text-align: center;
 }
 
+.subscribe-index h2 {
+  color: #ffffff;
+}
+
 .subscribe-catalog {
   background-color: #ffffff;
 }
 
-/* footer */
-
-.footer-contacts {
-  background-color: #ffffff;
-}
-
-.footer-phone-link {
-  font-size: 40px;
-  line-height: 40px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #000000;
-  font-style: normal;
-}
 
 /* filters */
 
