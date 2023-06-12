@@ -43,33 +43,6 @@ body {
   overflow: hidden;
 }
 
-/* header */
-
-.navigation-link {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 24px;
-  color: #000000;
-  text-align: center;
-  text-decoration: none;
-}
-
-/*на будущее
-.navigation-link-search {
-  background-image: url("../images/search.svg");
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-color: #ffffff;
-}
-
-.navigation-link-favorites {
-  background-image: url("../images/favorites.svg");
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-color: #ffffff;
-}
-*/
-
 /* main hero*/
 
 .main-hero {
@@ -113,7 +86,11 @@ body {
 
 /* text */
 
-
+.text-22 {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
 
 
 
@@ -140,7 +117,7 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
-*/
+
 .advantages-subtitle-text,
 .service-subtitle-text,
 .search-subtitle-text {
@@ -159,7 +136,7 @@ body {
 .subscribe-catalog .subscribe-subtitle-text {
   color: #333333;
 }
-
+*/
 /* advantages and services list */
 
 .advantages {
@@ -203,8 +180,6 @@ body {
 
 .subscribe-catalog {
   background-color: #ffffff;
-  color: #000000;
-  text-align: center;
 }
 
 /* footer */
