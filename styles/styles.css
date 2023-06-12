@@ -92,7 +92,9 @@ body {
   text-align: center;
 }
 
-
+.advantages-item-basic {
+  color: #ffffff;
+}
 
 /* format and transform text */
 
@@ -105,60 +107,27 @@ body {
   text-align: left;
 }
 
-/* finish */
+/* plate */
 
-/* subtitle text */
-
-/*.advantages-subtitle,
-.services-subtitle {
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.advantages-subtitle-text,
-.service-subtitle-text,
-.search-subtitle-text {
-  font-size: 22px;
-  line-height: 26px;
-  color: #333333;
+.plate {
   text-align: center;
 }
 
-.subscribe-subtitle-text {
-  font-size: 22px;
-  line-height: 26px;
-  text-align: center;
-}
-
-.subscribe-catalog .subscribe-subtitle-text {
-  color: #333333;
-}
-*/
-/* advantages and services list */
-
-.advantages {
-  background-color: #ffffff;
-}
-
-.advantages-img-description {
+.plate-basic {
   background-color: #82B3D3;
   color: #ffffff;
-  text-align: center;
 }
 
-.advantages-item-second,
-.services-item-second {
+.plate-basic h3 {
+  color: #ffffff;
+}
+
+.plate-second-1 {
   background-color: rgba(131, 179, 211, 0.12);
-  text-align: center;
 }
 
-.advantages-item-second-dark,
-.services-item-second-dark {
+.plate-second-2 {
   background-color: rgba(131, 179, 211, 0.2);
-  text-align: center;
 }
 
 /* section search */
