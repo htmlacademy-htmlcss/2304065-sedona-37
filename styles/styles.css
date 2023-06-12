@@ -255,42 +255,6 @@ body {
   line-height: 36px;
 }
 
-/*
-
-.button-want,
-.button-more {
-  font-size: 16px;
-  line-height: 20px;
-  background-color: #756157;
-}
-
-.button-search {
-  font-size: 20px;
-  line-height: 36px;
-  background-color: #756157;
-}
-
-.button-subscribe {
-  font-size: 20px;
-  line-height: 36px;
-  background-color: #82B3D3;
-}
-
-.button-like,
-.button-apply {
-  font-size: 16px;
-  line-height: 20px;
-  background-color: #82B3D3;
-}
-
-.button-like-selected {
-  background-color: #7DB54F;
-}
-
-
-
-*/
-
 /* pagination */
 
 .pagination-list {
