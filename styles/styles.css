@@ -86,6 +86,15 @@ body {
 
 /* text */
 
+.text-16 {
+  font-size: 16px;
+}
+
+.text-18 {
+  font-size: 18px;
+  line-height: 23px;
+}
+
 .text-22 {
   font-size: 22px;
   line-height: 26px;
@@ -171,16 +180,6 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   color: #ffffff;
-}
-
-.breadcrumds-index-link {
-  font-size: 16px;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.catalog-filters-list {
-  line-height: 23px;
 }
 
 .price-min,
