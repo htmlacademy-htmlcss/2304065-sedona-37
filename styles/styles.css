@@ -133,6 +133,10 @@ body {
   color: #ffffff;
 }
 
+.text-black {
+  color: #000000;
+}
+
 /* plate */
 
 .plate {
@@ -159,7 +163,6 @@ body {
 /* section search */
 
 .search {
-  background-color: #ffffff;
   text-align: center;
 }
 
@@ -169,8 +172,9 @@ body {
   background-image: url("../images/index/subscribe-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-  color: #ffffff;
+  color: #8e6456;
   text-align: center;
+  color: #ffffff;
 }
 
 .subscribe-index h2 {
@@ -247,39 +251,12 @@ body {
 
 /* pagination */
 
-.pagination-list {
-  font-size: 20px;
-  line-height: 36px;
-  font-weight: 700;
-  text-align: center;
-}
-
-.pagination-item {
-  background-color: #82B3D3;
-}
-
-.pagination-item-active {
+.btn-pagination-active {
   background-color: #F2F2F2;
 }
 
-.pagination-link {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.pagination-link-active {
-  color: #000000;
-  text-decoration: none;
-}
-
-.pagination-item-all {
-  background-color: #ffffff;
-}
-
-.pagination-link-all {
+.btn-pagination-all {
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
-  color: #000000;
-  text-decoration: none;
 }
