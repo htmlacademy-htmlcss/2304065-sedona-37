@@ -83,11 +83,41 @@ body {
 
 /* title */
 
+.title {
+  color: #000000;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
+.title-60 {
+  color: #ffffff;
+  font-size: 60px;
+  line-height: 78px;
+  text-transform: none;
+}
+
+.title-30 {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.title-24 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.title-20 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.nonecase {
+  text-transform: none;
+}
 
 /* finish */
 
-.advantages-title,
+/*.advantages-title,
 .services-title,
 .search-title {
   font-size: 30px;
@@ -116,7 +146,7 @@ body {
   font-size: 60px;
   line-height: 78px;
   font-weight: 700;
-}
+}*/
 
 /* subtitle text */
 
