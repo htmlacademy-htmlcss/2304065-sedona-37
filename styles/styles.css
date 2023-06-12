@@ -21,7 +21,13 @@ body {
   line-height: 21px;
   font-style: normal;
   color: #333333;
+  background-color: #F2F2F2;
+}
+
+.container {
   background-color: #ffffff;
+  max-width: 1200px;
+  height: auto;
 }
 
 .visually-hidden {
@@ -76,6 +82,10 @@ body {
 }
 
 /* title */
+
+
+
+/* finish */
 
 .advantages-title,
 .services-title,
