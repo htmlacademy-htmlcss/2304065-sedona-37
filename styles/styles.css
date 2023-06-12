@@ -87,13 +87,13 @@ body {
   color: #000000;
   font-weight: 700;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .title-60 {
   color: #ffffff;
   font-size: 60px;
   line-height: 78px;
-  text-transform: none;
 }
 
 .title-30 {
@@ -111,46 +111,28 @@ body {
   line-height: 24px;
 }
 
+/* text */
+
+
+
+
+
+/* format and transform text */
+
 .nonecase {
   text-transform: none;
+  text-decoration: none;
+}
+
+.text-left {
+  text-align: left;
 }
 
 /* finish */
 
-/*.advantages-title,
-.services-title,
-.search-title {
-  font-size: 30px;
-  line-height: 36px;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  color: #000000;
-}
-
-.subscribe-title,
-.catalog-products-title {
-  font-size: 30px;
-  line-height: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.catalog-filters-title {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 700;
-}
-
-.inner-header-title {
-  font-size: 60px;
-  line-height: 78px;
-  font-weight: 700;
-}*/
-
 /* subtitle text */
 
-.advantages-subtitle,
+/*.advantages-subtitle,
 .services-subtitle {
   font-size: 24px;
   line-height: 28px;
@@ -158,7 +140,7 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
-
+*/
 .advantages-subtitle-text,
 .service-subtitle-text,
 .search-subtitle-text {
