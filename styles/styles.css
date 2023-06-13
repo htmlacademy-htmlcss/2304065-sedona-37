@@ -85,6 +85,10 @@ body {
   line-height: 24px;
 }
 
+.filters .title {
+  color: #ffffff;
+}
+
 /* text */
 
 .text-16 {
@@ -130,14 +134,6 @@ body {
   text-align: left;
 }
 
-.text-white {
-  color: #ffffff;
-}
-
-.text-black {
-  color: #000000;
-}
-
 /* plate */
 
 .plate {
@@ -149,7 +145,7 @@ body {
   color: #ffffff;
 }
 
-.plate-basic h3 {
+.plate-basic .title {
   color: #ffffff;
 }
 
@@ -178,7 +174,7 @@ body {
   color: #ffffff;
 }
 
-.subscribe-index h2 {
+.subscribe-index .title {
   color: #ffffff;
 }
 
@@ -259,4 +255,12 @@ body {
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
+}
+
+.pagination-list .nonecase {
+  color: #ffffff;
+}
+
+.btn-pagination-all .all {
+  color: #000000;
 }
