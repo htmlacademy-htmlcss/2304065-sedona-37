@@ -1,0 +1,266 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  font-style: normal;
+  color: #333333;
+  background-color: #F2F2F2;
+}
+
+.container {
+  background-color: #ffffff;
+  max-width: 1200px;
+  height: auto;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* main hero*/
+
+.main-hero {
+  background-image: url("../images/index/index-background.jpg");
+  background-color: #8e6456;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* title */
+
+.title {
+  color: #000000;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title-60 {
+  color: #ffffff;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.title-30 {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.title-24 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.title-20 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.filters .title {
+  color: #ffffff;
+}
+
+/* text */
+
+.text-16 {
+  font-size: 16px;
+}
+
+.text-18 {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.text-22 {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.text-40 {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.advantages-item-basic {
+  color: #ffffff;
+}
+
+.products-rating {
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #F2F2F2;
+}
+
+/* format and transform text */
+
+.nonecase {
+  text-transform: none;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.text-left {
+  text-align: left;
+}
+
+/* plate */
+
+.plate {
+  text-align: center;
+}
+
+.plate-basic {
+  background-color: #82B3D3;
+  color: #ffffff;
+}
+
+.plate-basic .title {
+  color: #ffffff;
+}
+
+.plate-second-1 {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.plate-second-2 {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+/* section search */
+
+.search {
+  text-align: center;
+}
+
+/* subscribe */
+
+.subscribe-index {
+  background-image: url("../images/index/subscribe-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #8e6456;
+  text-align: center;
+  color: #ffffff;
+}
+
+.subscribe-index .title {
+  color: #ffffff;
+}
+
+.subscribe-catalog {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+/* filters */
+
+.inner-header {
+  background-color: #8e6456;
+  background-image: url("../images/catalog/catalog-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.price-min,
+.price-max {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.select-range {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+}
+
+/* buttons */
+
+.btn {
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #756157;
+}
+
+.btn-secondary {
+  background-color: #82B3D3;
+}
+
+.btn-current {
+  background-color: #7DB54F;
+}
+
+.btn-light {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.btn-16 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.btn-20 {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+/* pagination */
+
+.btn-pagination-active {
+  background-color: #F2F2F2;
+}
+
+.btn-pagination-all {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.pagination-list .nonecase {
+  color: #ffffff;
+}
+
+.btn-pagination-all .all {
+  color: #000000;
+}
