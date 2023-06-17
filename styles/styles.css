@@ -281,12 +281,16 @@ main {
 /* header */
 
 .main-navigation {
-  margin: 0;
-  padding: 0;
   display: flex;
 }
 
 .main-logo {
   width: 140px;
   margin-left: 70px;
+}
+
+.navigation-list {
+  margin-left: 28px;
+  padding: 0;
+  width: 450px;
 }
