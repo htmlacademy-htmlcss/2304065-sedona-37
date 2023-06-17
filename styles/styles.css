@@ -201,6 +201,41 @@ main {
 /* filters */
 
 .inner-header {
+  padding: 0 70px;
+}
+
+.catalog-filters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog-markers {
+  display: flex;
+  justify-content: space-between;
+  width: 371px;
+}
+
+.catalog-filters-group {
+  width: 151px;
+}
+
+.filters-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.catalog-range {
+  width: 549px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog-range-price {
+  width: 288px;
+}
+
+.inner-header {
   background-color: #8e6456;
   background-image: url("../images/catalog/catalog-background.jpg");
   background-size: 100% auto;
@@ -332,4 +367,18 @@ main {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+}
+
+/* footer */
+
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 70px;
+}
+
+.footer-social-list {
+  margin: 0;
+  padding: 0;
 }
