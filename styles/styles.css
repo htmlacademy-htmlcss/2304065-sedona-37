@@ -23,6 +23,7 @@ body {
   color: #333333;
   background-color: #F2F2F2;
   height: 100%;
+  margin: 0;
 }
 
 html {
@@ -35,7 +36,7 @@ main {
 
 .container {
   background-color: #ffffff;
-  max-width: 1200px;
+  width: 1200px;
   min-height: 100%;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -275,4 +276,17 @@ main {
 
 .btn-pagination-all .all {
   color: #000000;
+}
+
+/* header */
+
+.main-navigation {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.main-logo {
+  width: 140px;
+  margin-left: 70px;
 }
