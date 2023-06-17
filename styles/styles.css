@@ -151,6 +151,8 @@ main {
 
 .plate {
   text-align: center;
+  width: 400px;
+  min-height: 385px;
 }
 
 .plate-basic {
@@ -293,4 +295,27 @@ main {
   margin-left: 28px;
   padding: 0;
   width: 450px;
+}
+
+.navigation-user {
+  margin-left: auto;
+  width: 312px;
+}
+
+/* advantages */
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantages-item-basic {
+  display: flex;
+}
+
+.advantages-img {
+  margin: 0;
+  padding: 0;
 }
