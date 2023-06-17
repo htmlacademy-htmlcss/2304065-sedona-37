@@ -200,10 +200,6 @@ main {
 
 /* filters */
 
-.inner-header {
-  padding: 0 70px;
-}
-
 .catalog-filters {
   display: flex;
   justify-content: space-between;
@@ -217,6 +213,13 @@ main {
 
 .catalog-filters-group {
   width: 151px;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-filters-list {
+  padding: 0;
+  margin: 0;
 }
 
 .filters-buttons {
@@ -241,6 +244,7 @@ main {
   background-size: 100% auto;
   background-repeat: no-repeat;
   color: #ffffff;
+  padding: 0 70px;
 }
 
 .price-min,
@@ -381,4 +385,11 @@ main {
 .footer-social-list {
   margin: 0;
   padding: 0;
+}
+
+
+/* catalog */
+
+.catalog-products {
+  padding: 0 70px;
 }
