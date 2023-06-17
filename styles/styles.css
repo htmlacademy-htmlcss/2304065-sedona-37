@@ -323,3 +323,13 @@ main {
 .advantages-img img {
   display: block;
 }
+
+
+/* services */
+
+.services-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
