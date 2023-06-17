@@ -319,3 +319,7 @@ main {
   margin: 0;
   padding: 0;
 }
+
+.advantages-img img {
+  display: block;
+}
