@@ -299,18 +299,21 @@ main {
 .pagination-list {
   display: flex;
   padding: 0;
-
+  gap: 8px;
 }
 
 .pagination-list .button {
-  width: 40px;
-  height: 40px;
-  margin-right: 8px;
+  width: 60px;
+  height: 60px;
   list-style: none;
 }
 
 .button-pagination-active {
   background-color: #F2F2F2;
+}
+
+.pagination-list .button-pagination-active .nonecase {
+  color: #000000;
 }
 
 .button-pagination-all {
