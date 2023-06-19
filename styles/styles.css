@@ -94,7 +94,7 @@ main {
   width: 312px;
 }
 
-.navigation-link-want {
+.navigation-button-primary {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
@@ -197,6 +197,85 @@ main {
 .advantages-img img {
   display: block;
 }
+
+/* services */
+
+.services-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.services-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.services-item-second-1 {
+  width: 400px;
+  min-height: 385px;
+
+  text-align: center;
+
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.services-item-second-2 {
+  width: 400px;
+  min-height: 385px;
+
+  text-align: center;
+
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.services-item-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+/* search */
+
+.search-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.search-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.search-button-primary {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: #756157;
+  cursor: pointer;
+}
+
+
+/* subscribe-index */
+
+
 
 /* delete */
 
