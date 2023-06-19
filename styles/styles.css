@@ -65,17 +65,41 @@ main {
 
 /* header */
 
+.navigation-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+
+.navigation-link-want {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: #756157;
+  cursor: pointer;
+}
 
 /* main hero*/
 
 .main-hero {
+  text-align: center;
+
   background-image: url("../images/index/index-background.jpg");
   background-color: #8e6456;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  text-align: center;
   vertical-align: middle;
 }
+
+/* delete */
 
 /* title */
 
