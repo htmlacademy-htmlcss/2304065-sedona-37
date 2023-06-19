@@ -65,6 +65,21 @@ main {
 
 /* header */
 
+.main-navigation {
+  display: flex;
+}
+
+.main-logo {
+  width: 140px;
+  margin-left: 70px;
+}
+
+.navigation-list {
+  width: 450px;
+  margin-left: 28px;
+  padding: 0;
+}
+
 .navigation-link {
   font-size: 20px;
   line-height: 24px;
@@ -72,6 +87,11 @@ main {
   text-align: center;
   color: #000000;
   text-decoration: none;
+}
+
+.navigation-user {
+  margin-left: auto;
+  width: 312px;
 }
 
 .navigation-link-want {
@@ -92,11 +112,90 @@ main {
 .main-hero {
   text-align: center;
 
-  background-image: url("../images/index/index-background.jpg");
   background-color: #8e6456;
+  background-image: url("../images/index/index-background.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   vertical-align: middle;
+}
+
+/* advantages */
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.advantages-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.advantages-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.advantages-item-basic {
+  display: flex;
+}
+
+.advantages-item-basic div {
+  width: 400px;
+  min-height: 385px;
+
+  color: #ffffff;
+  text-align: center;
+
+  background-color: #82B3D3;
+}
+
+.advantages-item-second-1 {
+  width: 400px;
+  min-height: 385px;
+
+  text-align: center;
+
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-second-2 {
+  width: 400px;
+  min-height: 385px;
+
+  text-align: center;
+
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-item-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.advantages-item-basic .advantages-item-title {
+  color: #ffffff;
+}
+
+.advantages-img {
+  margin: 0;
+  padding: 0;
+}
+
+.advantages-img img {
+  display: block;
 }
 
 /* delete */
@@ -365,47 +464,9 @@ main {
 
 /* header */
 
-.main-navigation {
-  display: flex;
-}
-
-.main-logo {
-  width: 140px;
-  margin-left: 70px;
-}
-
-.navigation-list {
-  margin-left: 28px;
-  padding: 0;
-  width: 450px;
-}
-
-.navigation-user {
-  margin-left: auto;
-  width: 312px;
-}
-
 /* advantages */
 
-.advantages-list {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.advantages-item-basic {
-  display: flex;
-}
-
-.advantages-img {
-  margin: 0;
-  padding: 0;
-}
-
-.advantages-img img {
-  display: block;
-}
 
 
 /* services */
