@@ -259,7 +259,7 @@ main {
 
 /* buttons */
 
-.btn {
+.button {
   font-weight: 700;
   color: #ffffff;
   text-align: center;
@@ -268,28 +268,28 @@ main {
   cursor: pointer;
 }
 
-.btn-primary {
+.button-primary {
   background-color: #756157;
 }
 
-.btn-secondary {
+.button-secondary {
   background-color: #82B3D3;
 }
 
-.btn-current {
+.button-current {
   background-color: #7DB54F;
 }
 
-.btn-light {
+.button-light {
   background-color: rgba(255, 255, 255, 0);
 }
 
-.btn-16 {
+.button-16 {
   font-size: 16px;
   line-height: 20px;
 }
 
-.btn-20 {
+.button-20 {
   font-size: 20px;
   line-height: 36px;
 }
@@ -302,18 +302,18 @@ main {
 
 }
 
-.pagination-list .btn {
+.pagination-list .button {
   width: 40px;
   height: 40px;
   margin-right: 8px;
   list-style: none;
 }
 
-.btn-pagination-active {
+.button-pagination-active {
   background-color: #F2F2F2;
 }
 
-.btn-pagination-all {
+.button-pagination-all {
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
@@ -323,7 +323,7 @@ main {
   color: #ffffff;
 }
 
-.btn-pagination-all .all {
+.button-pagination-all .all {
   color: #000000;
 }
 
