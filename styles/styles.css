@@ -608,8 +608,9 @@ main {
   line-height: 36px;
   font-weight: 700;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
   cursor: pointer;
+  text-decoration: none;
 
   background-color: #F2F2F2;
 }
