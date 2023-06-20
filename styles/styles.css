@@ -285,6 +285,9 @@ main {
 
 
 .subscribe-index {
+  width: 1200px;
+  height: 415px;
+
   background-color: #8e6456;
   background-image: url("../images/index/subscribe-background.jpg");
   background-size: 100% auto;
