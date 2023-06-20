@@ -322,7 +322,6 @@ main {
 
   background-color: #82B3D3;
   cursor: pointer;
-
 }
 
 /* footer */
@@ -521,12 +520,17 @@ main {
 .products-cards-item {
   width: 340px;
 }
+
 .products-cards-img {
   display: block;
 }
 
 .products-img-link {
   display: block;
+}
+
+.hotel-link {
+  text-decoration: none;
 }
 
 .hotel-link-title {
@@ -680,5 +684,4 @@ main {
 
   background-color: #82B3D3;
   cursor: pointer;
-
 }
