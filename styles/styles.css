@@ -209,6 +209,14 @@ main {
   text-transform: uppercase;
 }
 
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 0;
+  padding: 0;
+}
+
 .services-subtitle {
   font-size: 22px;
   line-height: 26px;
@@ -340,6 +348,198 @@ main {
   text-decoration: none;
 }
 
+/* inner-header */
+
+.inner-header {
+  padding: 0 70px;
+
+  color: #ffffff;
+
+  background-color: #8e6456;
+  background-image: url("../images/catalog/catalog-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.breadcrumds-link {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* filters */
+
+.catalog-filters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog-markers {
+  display: flex;
+  justify-content: space-between;
+
+  width: 371px;
+}
+
+.catalog-filters-group {
+  width: 151px;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-filters-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+.catalog-filters-list {
+  padding: 0;
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.catalog-range {
+  width: 549px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog-range-price {
+  width: 288px;
+}
+
+.catalog-range-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+
+.price-min,
+.price-max {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.filters-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.filters-buttons-secondary {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: #82B3D3;
+
+  cursor: pointer;
+}
+
+.filters-buttons-light {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: rgba(255, 255, 255, 0);
+
+  cursor: pointer;
+}
+
+/* catalog-products */
+
+.catalog-products {
+  padding: 0 70px;
+}
+
+.catalog-products-header {
+  display: flex;
+}
+
+.catalog-products-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.select-range {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+  width: 292px;
+  margin-left: 200px;
+}
+
+.catalog-visually {
+  width: 160px;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+}
+
+/* hotels = products-cards-list */
+
+.products-cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  width: 1060px;
+
+  margin: 0;
+  padding: 0;
+}
+
+.products-cards-item {
+  width: 340px;
+}
+.products-cards-img {
+  display: block;
+}
+
+.products-img-link {
+  display: block;
+}
+
+.hotel-rating {
+  margin: 0;
+}
+
+/* subscribe-catalog */
+
+.subscribe-catalog {
+  text-align: center;
+  background-color: #ffffff;
+}
+
 
 /* delete */
 
@@ -422,71 +622,8 @@ main {
   text-align: left;
 }
 
-/* subscribe */
 
 
-
-.subscribe-catalog {
-  background-color: #ffffff;
-  text-align: center;
-}
-
-/* filters */
-
-.catalog-filters {
-  display: flex;
-  justify-content: space-between;
-}
-
-.catalog-markers {
-  display: flex;
-  justify-content: space-between;
-  width: 371px;
-}
-
-.catalog-filters-group {
-  width: 151px;
-  margin: 0;
-  padding: 0;
-}
-
-.catalog-filters-list {
-  padding: 0;
-  margin: 0;
-}
-
-.filters-buttons {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-.catalog-range {
-  width: 549px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.catalog-range-price {
-  width: 288px;
-}
-
-.inner-header {
-  background-color: #8e6456;
-  background-image: url("../images/catalog/catalog-background.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  color: #ffffff;
-  padding: 0 70px;
-}
-
-.price-min,
-.price-max {
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 700;
-  color: #000000;
-}
 
 
 
@@ -572,68 +709,10 @@ main {
 
 /* services */
 
-.services-list {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 /* footer */
 
 
 
 /* catalog */
-
-.catalog-products {
-  padding: 0 70px;
-}
-
-.catalog-products-header {
-  display: flex;
-}
-
-.select-range {
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 400;
-  color: #333333;
-  width: 292px;
-  margin-left: 200px;
-}
-
-.catalog-visually {
-  margin: 0;
-  padding: 0;
-  width: 160px;
-  margin-left: auto;
-}
-
-.products-cards {
-  margin: 0;
-}
-
-.products-cards-list {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 1060px;
-}
-
-.products-cards-item {
-  width: 340px;
-}
-
-.hotel-rating {
-  margin: 0;
-}
-
-.products-cards-img {
-  display: block;
-}
-
-.products-img-link {
-  display: block;
-}
