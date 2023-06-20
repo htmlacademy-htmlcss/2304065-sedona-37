@@ -529,8 +529,120 @@ main {
   display: block;
 }
 
+.hotel-link-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+}
+
+.products-cards-button-primary {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+
+  background-color: #756157;
+}
+
+.products-cards-button-secondary {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+
+  background-color: #82B3D3;
+}
+
+.products-cards-button-secondary-current {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+
+  background-color: #7DB54F;
+}
+
+.products-rating {
+  font-size: 16px;
+  line-height: 20px;
+
+  background-color: #F2F2F2;
+}
+
 .hotel-rating {
   margin: 0;
+}
+
+/* pagination */
+
+.pagination-list {
+  display: flex;
+  gap: 8px;
+
+  padding: 0;
+
+  list-style: none;
+}
+
+.pagination-button-active {
+  display: block;
+
+  width: 60px;
+  height: 60px;
+
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+
+  background-color: #F2F2F2;
+}
+
+.pagination-button-secondary {
+  display: block;
+
+  width: 60px;
+  height: 60px;
+
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+
+  background-color: #82B3D3;
+}
+
+.pagination-button-all {
+  display: block;
+
+  width: 60px;
+  height: 60px;
+
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 /* subscribe-catalog */
@@ -540,179 +652,32 @@ main {
   background-color: #ffffff;
 }
 
-
-/* delete */
-
-/* title */
-
-.title {
-  color: #000000;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.title-60 {
-  color: #ffffff;
-  font-size: 60px;
-  line-height: 78px;
-}
-
-.title-30 {
+.subscribe-catalog-title {
   font-size: 30px;
   line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
 }
 
-.title-24 {
-  font-size: 24px;
-  line-height: 28px;
-}
-
-.title-20 {
-  font-size: 20px;
-  line-height: 24px;
-}
-
-.filters .title {
-  color: #ffffff;
-}
-
-/* text */
-
-.text-16 {
-  font-size: 16px;
-}
-
-.text-18 {
-  font-size: 18px;
-  line-height: 23px;
-}
-
-.text-22 {
+.subscribe-catalog-subtitle {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-}
-
-.text-40 {
-  font-size: 40px;
-  line-height: 40px;
   color: #000000;
 }
 
-.advantages-item-basic {
-  color: #ffffff;
-}
-
-.products-rating {
-  font-size: 16px;
-  line-height: 20px;
-  background-color: #F2F2F2;
-}
-
-/* format and transform text */
-
-.nonecase {
-  text-transform: none;
-  text-decoration: none;
-  font-style: normal;
-}
-
-.text-left {
-  text-align: left;
-}
-
-
-
-
-
-
-/* buttons */
-
-.button {
-  font-weight: 700;
-  color: #ffffff;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.button-primary {
-  background-color: #756157;
-}
-
-.button-secondary {
-  background-color: #82B3D3;
-}
-
-.button-current {
-  background-color: #7DB54F;
-}
-
-.button-light {
-  background-color: rgba(255, 255, 255, 0);
-}
-
-.button-16 {
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.button-20 {
+.subscribe-button-secondary {
   font-size: 20px;
   line-height: 36px;
-}
-
-/* pagination */
-
-.pagination-list {
-  display: flex;
-  padding: 0;
-  gap: 8px;
-}
-
-.pagination-list .button {
-  width: 60px;
-  height: 60px;
-  list-style: none;
-}
-
-.button-pagination-active {
-  background-color: #F2F2F2;
-}
-
-.pagination-list .button-pagination-active .nonecase {
-  color: #000000;
-}
-
-.button-pagination-all {
-  font-size: 22px;
-  line-height: 26px;
-  font-weight: 400;
-}
-
-.pagination-list .nonecase {
+  font-weight: 700;
+  text-align: center;
   color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: #82B3D3;
+  cursor: pointer;
+
 }
-
-.button-pagination-all .all {
-  color: #000000;
-}
-
-/* header */
-
-/* advantages */
-
-
-
-
-/* services */
-
-
-
-/* footer */
-
-
-
-/* catalog */
