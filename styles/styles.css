@@ -238,6 +238,7 @@ main {
 }
 
 .advantages-img {
+  display: flex;
   margin: 0;
   padding: 0;
 }
@@ -248,6 +249,9 @@ main {
 /* services */
 
 .services-title {
+  margin: 0;
+  padding: 64px 347px 0;
+
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -265,6 +269,9 @@ main {
 }
 
 .services-subtitle {
+  margin: 0;
+  padding: 20px 355px 64px;
+
   font-size: 22px;
   line-height: 26px;
   text-align: center;
