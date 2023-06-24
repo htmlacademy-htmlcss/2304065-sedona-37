@@ -144,6 +144,10 @@ main {
   vertical-align: middle;
 }
 
+.img-hero {
+  padding: 51px 371px 82px;
+}
+
 /* advantages */
 
 .advantages-list {
