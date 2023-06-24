@@ -147,6 +147,7 @@ main {
 }
 
 .img-hero {
+  display: block;
   padding: 51px 371px 82px;
 }
 
