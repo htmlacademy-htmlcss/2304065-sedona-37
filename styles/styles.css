@@ -318,7 +318,14 @@ main {
 
 /* search */
 
+.search {
+  text-align: center;
+}
+
 .search-title {
+  margin: 0 0 20px;
+  padding: 96px 451px 0;
+
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -328,12 +335,18 @@ main {
 }
 
 .search-subtitle {
+  margin: 0 0 54px;
+  padding: 0px 304px;
+
   font-size: 22px;
   line-height: 26px;
   text-align: center;
 }
 
 .search-button-primary {
+  display: inline-block;
+  margin: 0 0 96px;
+
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
