@@ -70,10 +70,10 @@ main {
 }
 
 .main-logo {
+  z-index: 1;
+
   width: 140px;
   margin: 0 28px 0 70px;
-
-  z-index: 1;
 }
 
 .navigation-list {
@@ -420,15 +420,43 @@ main {
 .main-footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-
   padding:0 70px;
 }
 
+.footer-social {
+  margin: 0 0 35px;
+  padding: 45px 0 0;
+}
+
 .footer-social-list {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
+
+  list-style-type: none;
 }
+
+.social-link-vk,
+.social-link-telegram,
+.social-link-youtube {
+  display: block;
+  width: 47px;
+  height: 40px;
+
+  background-color: aqua;
+}
+
+.footer-contacts {
+  margin: 0 0 35px;
+  padding: 45px 0 0;
+}
+
+.footer-about-us {
+  margin: 0 0 39px;
+  padding: 48px 0 0;
+}
+
 
 .footer-phone-link {
   font-style: normal;
