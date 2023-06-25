@@ -121,7 +121,7 @@ main {
 }
 
 .navigation-user .navigation-item:last-child {
-  margin: 0 0 0 14px;
+  margin: 0 70px 0 auto;
   padding: 14px 0 0;
 }
 
