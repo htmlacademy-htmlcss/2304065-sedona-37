@@ -523,10 +523,12 @@ main {
 }
 
 .catalog-filters-title {
+  margin: 0 0 32px;
+  padding: 0;
+
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
-  text-align: center;
   color: #ffffff;
 }
 
@@ -537,6 +539,16 @@ main {
 
   font-size: 18px;
   line-height: 23px;
+
+  list-style-type: none;
+}
+
+.catalog-filters-item {
+  margin: 0 0 16px;
+}
+
+.catalog-filters-item:last-child {
+  margin: 0;
 }
 
 .catalog-range {
@@ -547,28 +559,47 @@ main {
 
 .catalog-range-price {
   width: 288px;
+  margin: 0 0 70px;
+  padding: 0;
 }
 
 .catalog-range-title {
+  margin: 0 0 20px;
+  padding: 0;
+
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
-  text-align: center;
   color: #ffffff;
+}
+
+.catalog-range-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
 }
 
 .price-min,
 .price-max {
+  width: 143px;
+  padding: 0;
+
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
   color: #000000;
+
+  box-sizing: border-box;
 }
 
 .filters-buttons {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .filters-buttons-secondary {
