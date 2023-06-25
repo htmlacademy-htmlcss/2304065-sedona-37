@@ -121,6 +121,11 @@ main {
   background-color: aqua;
 }
 
+.navigation-user .navigation-item:last-child {
+  margin: 0 0 0 20px;
+  padding: 14px 0;
+}
+
 .navigation-button-primary {
   font-size: 16px;
   line-height: 20px;
@@ -396,6 +401,8 @@ main {
 }
 
 .subscribe-form {
+  margin: 0 0 104px;
+
   text-align: center;
 }
 
@@ -756,11 +763,13 @@ main {
 
 .pagination-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
 
+  margin: 0 0 60px;
   padding: 0;
 
-  list-style: none;
+  list-style-type: none;
 }
 
 .pagination-button-active {
@@ -819,6 +828,9 @@ main {
 }
 
 .subscribe-catalog-title {
+  margin: 0 0 20px;
+  padding: 96px 398px 0;
+
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -828,6 +840,9 @@ main {
 }
 
 .subscribe-catalog-subtitle {
+  margin: 0 0 54px;
+  padding: 0 362px;
+
   font-size: 22px;
   line-height: 26px;
   text-align: center;
