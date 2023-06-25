@@ -557,6 +557,11 @@ main {
   margin: 0;
 }
 
+.price-range {
+  width: 287px;
+  margin: 0;
+}
+
 .catalog-range {
   width: 549px;
   display: flex;
