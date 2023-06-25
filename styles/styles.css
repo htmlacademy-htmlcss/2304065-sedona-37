@@ -72,6 +72,8 @@ main {
 .main-logo {
   width: 140px;
   margin: 0 28px 0 70px;
+
+  z-index: 1;
 }
 
 .navigation-list {
@@ -217,8 +219,8 @@ main {
 }
 
 .advantages-item-title {
-  padding: 102px 112px 0;
-  margin: 0;
+  padding: 70px 112px 0px;
+  margin: 0 0 62px;
 
   font-size: 24px;
   line-height: 28px;
@@ -234,7 +236,7 @@ main {
 
 .advantages-item-text {
   margin: 0;
-  padding: 62px 85px 102px;
+  padding: 0 85px 70px;
 }
 
 .advantages-img {
@@ -266,6 +268,8 @@ main {
 
   margin: 0;
   padding: 0;
+
+  list-style-type: none;
 }
 
 .services-subtitle {
@@ -296,12 +300,20 @@ main {
 }
 
 .services-item-title {
+  padding: 30px 85px 0;
+  margin: 0 0 30px;
+
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
   text-align: center;
   color: #000000;
   text-transform: uppercase;
+}
+
+.services-item-text {
+  margin: 0;
+  padding: 0 85px 81px;
 }
 
 /* search */
