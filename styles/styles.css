@@ -644,6 +644,7 @@ main {
 
 .catalog-products-header {
   display: flex;
+  align-items: center;
   margin: 0 0 40px;
   padding: 50px 0 0;
 }
