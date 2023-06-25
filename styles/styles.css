@@ -166,8 +166,8 @@ main {
 
 
 .advantages-title {
+  margin: 0 0 25px;
   padding: 69px 290px 0;
-  margin: 0;
 
   font-size: 30px;
   line-height: 36px;
@@ -178,8 +178,8 @@ main {
 }
 
 .advantages-subtitle {
-  padding: 25px 274px 69px;
-  margin: 0;
+  margin: 0 0 69px;
+  padding: 0px 274px;
 
   font-size: 22px;
   line-height: 26px;
@@ -251,7 +251,7 @@ main {
 /* services */
 
 .services-title {
-  margin: 0;
+  margin: 0 0 20px;
   padding: 64px 347px 0;
 
   font-size: 30px;
@@ -273,8 +273,8 @@ main {
 }
 
 .services-subtitle {
-  margin: 0;
-  padding: 20px 355px 64px;
+  margin: 0 0 64px;
+  padding: 0 355px;
 
   font-size: 22px;
   line-height: 26px;
@@ -374,6 +374,9 @@ main {
 }
 
 .subscribe-index-title {
+  margin: 0 0 20px;
+  padding: 96px 308px 0;
+
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -383,6 +386,9 @@ main {
 }
 
 .subscribe-index-subtitle {
+  margin: 0 0 54px;
+  padding: 0 362px;
+
   font-size: 22px;
   line-height: 26px;
   text-align: center;
@@ -394,6 +400,9 @@ main {
 }
 
 .subscribe-button-secondary {
+  margin: 0;
+  padding: 0;
+
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
