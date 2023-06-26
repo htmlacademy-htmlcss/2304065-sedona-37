@@ -36,6 +36,11 @@ main {
   flex-grow: 1;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -152,7 +157,6 @@ main {
 }
 
 .img-hero {
-  display: block;
   padding: 51px 371px 82px;
 }
 
@@ -248,9 +252,6 @@ main {
   padding: 0;
 }
 
-.advantages-img img {
-  display: block;
-}
 /* services */
 
 .services-title {
@@ -711,14 +712,6 @@ main {
 
 .products-cards-item {
   width: 340px;
-}
-
-.products-cards-img {
-  display: block;
-}
-
-.products-img-link {
-  display: block;
 }
 
 .hotel-link {
