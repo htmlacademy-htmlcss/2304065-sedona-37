@@ -252,6 +252,12 @@ img {
   padding: 0;
 }
 
+.advantages-img img {
+  object-fit: cover;
+
+  height: 100%;
+}
+
 /* services */
 
 .services-title {
