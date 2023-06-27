@@ -374,8 +374,10 @@ img {
 
 
 .subscribe-index {
+  display: flex;
+  flex-direction: column;
   width: 1200px;
-  height: 415px;
+  min-height: 415px;
 
   background-color: #8e6456;
   background-image: url("../images/index/subscribe-background.jpg");
