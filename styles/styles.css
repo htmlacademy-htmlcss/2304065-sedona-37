@@ -730,7 +730,13 @@ img {
 }
 
 .products-cards-item {
-  /*width: 340px;*/
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+  padding: 20px;
+
+
 }
 
 .hotel-link {
@@ -745,6 +751,12 @@ img {
   font-weight: 700;
   color: #000000;
   text-decoration: none;
+}
+
+.products-cards-description {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
 }
 
 .products-cards-type {
