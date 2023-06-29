@@ -727,6 +727,9 @@ img {
   gap: 16px;
   padding: 20px;
 
+  border-radius: 4px;
+  border: 1px solid #E6E6E6;
+
 }
 
 .hotel-link {
