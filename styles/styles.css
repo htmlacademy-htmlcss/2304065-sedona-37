@@ -835,6 +835,7 @@ img {
   display: block;
   width: 60px;
   height: 60px;
+  padding: 11px 18.5px 12px;
 
   font-size: 20px;
   line-height: 36px;
@@ -851,6 +852,7 @@ img {
   display: block;
   width: 60px;
   height: 60px;
+  padding: 11px 18.5px 12px;
 
   font-size: 20px;
   line-height: 36px;
@@ -865,9 +867,9 @@ img {
 
 .pagination-button-all {
   display: block;
-
   width: 60px;
   height: 60px;
+  padding: 17px 18.5px 18px;
 
   font-size: 22px;
   line-height: 26px;
