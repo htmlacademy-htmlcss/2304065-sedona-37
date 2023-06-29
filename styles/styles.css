@@ -70,7 +70,6 @@ img {
   overflow: hidden;
 }
 
-
 /* header */
 
 .main-navigation {
@@ -171,7 +170,6 @@ img {
 
   list-style-type: none;
 }
-
 
 .advantages-title {
   margin: 0 0 25px;
@@ -370,9 +368,7 @@ img {
   cursor: pointer;
 }
 
-
 /* subscribe-index */
-
 
 .subscribe-index {
   display: flex;
@@ -549,7 +545,6 @@ img {
   font-weight: 700;
   color: #ffffff;
 }
-
 
 .catalog-filters-list {
   padding: 0;
