@@ -739,7 +739,12 @@ img {
 
 }
 
+.description-container {
+  margin-top: auto;
+}
+
 .hotel-link {
+  flex-grow: 1;
   text-decoration: none;
 }
 
