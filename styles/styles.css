@@ -707,17 +707,6 @@ img {
 
 /* hotels = products-cards-list */
 
-/*.products-cards-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-  width: 1060px;
-
-  margin: 0 0 80px;
-  padding: 0;
-}*/
-
 .products-cards-list {
   display: grid;
   grid-template-columns: repeat(3, 340px);
@@ -736,16 +725,17 @@ img {
   gap: 16px;
   padding: 20px;
 
-
-}
-
-.description-container {
-  margin-top: auto;
 }
 
 .hotel-link {
-  flex-grow: 1;
   text-decoration: none;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  gap:16px 0;
+  margin-top: auto;
 }
 
 .hotel-link-title {
