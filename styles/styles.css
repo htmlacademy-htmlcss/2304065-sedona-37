@@ -490,7 +490,7 @@ img {
 
   background-color: #8e6456;
   background-image: url("../images/catalog/catalog-background.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
