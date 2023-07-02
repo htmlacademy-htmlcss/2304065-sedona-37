@@ -97,6 +97,11 @@ img {
   line-height: 20px;
 }
 
+.search-subtitle .button {
+  font-size: 20px;
+  line-height: 36px;
+}
+
 /* header */
 
 .main-header {
@@ -348,12 +353,12 @@ img {
 /* search */
 
 .search {
+  padding: 96px 304px;
   text-align: center;
 }
 
 .search-title {
   margin: 0 0 20px;
-  padding: 96px 451px 0;
 
   font-size: 30px;
   line-height: 36px;
@@ -365,27 +370,10 @@ img {
 
 .search-subtitle {
   margin: 0 0 54px;
-  padding: 0 304px;
 
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-}
-
-.search-button-primary {
-  display: inline-block;
-  margin: 0 0 96px;
-
-  font-size: 20px;
-  line-height: 36px;
-  font-weight: 700;
-  text-align: center;
-  color: #ffffff;
-  text-transform: uppercase;
-  text-decoration: none;
-
-  background-color: #756157;
-  cursor: pointer;
 }
 
 /* subscribe-index */
