@@ -96,20 +96,22 @@ img {
   background-color: #82B3D3;
 }
 
-.subscribe-form .button {
-  font-size: 20px;
-  line-height: 36px;
-  border: none;
-}
+
 
 .navigation-item .button {
   font-size: 16px;
   line-height: 20px;
 }
 
-.search-subtitle .button {
+.search .button {
   font-size: 20px;
   line-height: 36px;
+}
+
+.subscribe-form .button {
+  font-size: 20px;
+  line-height: 36px;
+  border: none;
 }
 
 /* header */
