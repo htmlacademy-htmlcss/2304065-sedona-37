@@ -96,21 +96,37 @@ img {
   background-color: #82B3D3;
 }
 
+.button-light {
+  background-color: rgba(255, 255, 255, 0);
+}
 
-
-.navigation-item .button {
+.navigation-item .button-primary {
   font-size: 16px;
   line-height: 20px;
 }
 
-.search .button {
+.search .button-primary {
   font-size: 20px;
   line-height: 36px;
 }
 
-.subscribe-form .button {
+.subscribe-form .button-secondary {
   font-size: 20px;
   line-height: 36px;
+  border: none;
+}
+
+.filters-buttons .button-secondary {
+  font-size: 16px;
+  line-height: 20px;
+
+  border: none;
+}
+
+.filters-buttons .button-light {
+  font-size: 16px;
+  line-height: 20px;
+
   border: none;
 }
 
@@ -624,34 +640,6 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.filters-buttons-secondary {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
-  text-align: center;
-  color: #ffffff;
-  text-transform: uppercase;
-  text-decoration: none;
-
-  background-color: #82B3D3;
-
-  cursor: pointer;
-}
-
-.filters-buttons-light {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
-  text-align: center;
-  color: #ffffff;
-  text-transform: uppercase;
-  text-decoration: none;
-
-  background-color: rgba(255, 255, 255, 0);
-
-  cursor: pointer;
 }
 
 /* catalog-products */
