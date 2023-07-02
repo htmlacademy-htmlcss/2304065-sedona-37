@@ -92,6 +92,16 @@ img {
   background-color: #756157;
 }
 
+.button-secondary {
+  background-color: #82B3D3;
+}
+
+.subscribe-form .button {
+  font-size: 20px;
+  line-height: 36px;
+  border: none;
+}
+
 .navigation-item .button {
   font-size: 16px;
   line-height: 20px;
@@ -419,22 +429,6 @@ img {
   margin: 0 0 104px;
 
   text-align: center;
-}
-
-.subscribe-button-secondary {
-  margin: 0;
-  padding: 0;
-
-  font-size: 20px;
-  line-height: 36px;
-  font-weight: 700;
-  text-align: center;
-  color: #ffffff;
-  text-transform: uppercase;
-  text-decoration: none;
-
-  background-color: #82B3D3;
-  cursor: pointer;
 }
 
 /* footer */
