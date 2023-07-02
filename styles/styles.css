@@ -76,7 +76,7 @@ img {
 
 .button {
   display: inline-block;
-  padding: 8px 50px;
+  padding: 8px;
 
   font-weight: 700;
   text-align: center;
@@ -85,6 +85,7 @@ img {
   text-decoration: none;
 
   border-radius: 4px;
+  border: none;
   cursor: pointer;
 }
 
@@ -96,40 +97,82 @@ img {
   background-color: #82B3D3;
 }
 
+.button-current {
+  background-color: #7DB54F;
+}
+
 .button-light {
   background-color: rgba(255, 255, 255, 0);
 }
 
 .navigation-item .button-primary {
+  width: 160px;
+  height: 36px;
+
   font-size: 16px;
   line-height: 20px;
 }
 
 .search .button-primary {
+  width: 376px;
+  height: 52px;
+
   font-size: 20px;
   line-height: 36px;
 }
 
 .subscribe-form .button-secondary {
+  width: 232px;
+  height: 52px;
+
   font-size: 20px;
   line-height: 36px;
-  border: none;
+
+  border-radius: 0 4px 4px 0;
 }
 
 .filters-buttons .button-secondary {
+  width: 191px;
+  height: 36px;
   margin: 0 0 32px;
+
   font-size: 16px;
   line-height: 20px;
-
-  border: none;
 }
 
 .filters-buttons .button-light {
+  width: 191px;
+  height: 36px;
+
   font-size: 16px;
   line-height: 20px;
-
-  border: none;
 }
+
+.products-cards-item .button-primary {
+  width: 140px;
+  height: 36px;
+
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.products-cards-item .button-secondary {
+  width: 140px;
+  height: 36px;
+
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.products-cards-item .button-current {
+  width: 140px;
+  height: 36px;
+
+  font-size: 16px;
+  line-height: 20px;
+}
+
+
 
 /* header */
 
@@ -747,7 +790,7 @@ img {
 .products-cards-description {
   display: flex;
   justify-content: space-between;
-  align-content: flex-end;
+  gap: 20px;
 }
 
 .products-cards-type {
@@ -756,45 +799,6 @@ img {
 
 .products-cards-price {
   margin: 0;
-}
-
-.products-cards-button-primary {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
-  text-align: center;
-  color: #ffffff;
-  text-transform: uppercase;
-  text-decoration: none;
-  cursor: pointer;
-
-  background-color: #756157;
-}
-
-.products-cards-button-secondary {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
-  text-align: center;
-  color: #ffffff;
-  text-transform: uppercase;
-  text-decoration: none;
-  cursor: pointer;
-
-  background-color: #82B3D3;
-}
-
-.products-cards-button-secondary-current {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
-  text-align: center;
-  color: #ffffff;
-  text-transform: uppercase;
-  text-decoration: none;
-  cursor: pointer;
-
-  background-color: #7DB54F;
 }
 
 .products-rating {
