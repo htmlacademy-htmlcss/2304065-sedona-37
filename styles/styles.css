@@ -289,11 +289,12 @@ img {
   text-align: center;
 }
 
-.advantages-item-basic {
+.advantages-item:first-child,
+.advantages-item:last-child {
   display: flex;
 }
 
-.advantages-item-basic div {
+.advantages-item div {
   width: 400px;
   min-height: 385px;
   padding: 103px 85px;
@@ -304,26 +305,21 @@ img {
   background-color: #82B3D3;
 }
 
-.advantages-item-second-1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.advantages-item:nth-child(2),
+.advantages-item:nth-child(4) {
   width: 400px;
   min-height: 385px;
+  padding: 103px 85px;
 
   text-align: center;
 
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.advantages-item-second-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.advantages-item:nth-child(3) {
   width: 400px;
   min-height: 385px;
+  padding: 103px 85px;
 
   text-align: center;
 
@@ -341,13 +337,15 @@ img {
   text-transform: uppercase;
 }
 
-.advantages-item-basic .advantages-item-title {
+.advantages-item:nth-child(1) .advantages-item-title,
+.advantages-item:nth-child(5) .advantages-item-title {
   color: #ffffff;
 }
 
 .advantages-item-text {
   margin: 0;
 }
+
 
 .advantages-img {
   display: flex;
@@ -386,8 +384,8 @@ img {
 }
 
 .services-subtitle {
-  margin: 0 0 64px;
-  padding: 0 355px;
+  margin: 0;
+  padding: 0 355px 64px;
 
   font-size: 22px;
   line-height: 26px;
@@ -395,13 +393,9 @@ img {
 }
 
 .services-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
   width: 400px;
   min-height: 385px;
+  padding: 80px 85px;
 
   text-align: center;
 }
@@ -415,7 +409,6 @@ img {
 }
 
 .services-item-title {
-  padding: 30px 85px 0;
   margin: 0 0 30px;
 
   font-size: 24px;
@@ -428,7 +421,6 @@ img {
 
 .services-item-text {
   margin: 0;
-  padding: 0 85px 81px;
 }
 
 /* search */
@@ -511,8 +503,8 @@ img {
 }
 
 .footer-social {
-  margin: 0 0 35px;
-  padding: 45px 0 0;
+  margin: 0;
+  padding: 45px 0 35px;
 }
 
 .footer-social-list {
@@ -535,13 +527,14 @@ img {
 }
 
 .footer-contacts {
-  margin: 0 0 35px;
-  padding: 45px 0 0;
+  margin: 0;
+  padding: 45px 0 35px;
 }
 
 .footer-about-us {
-  margin: 0 0 39px;
-  padding: 48px 0 0;
+  margin: 0
+  ;
+  padding: 48px 0 39px;
 }
 
 
