@@ -242,14 +242,11 @@ img {
   left: 0;
 
   margin: auto;
-
-  fill: #000000;
 }
 
 .navigation-link-search:hover .navigation-icon,
 .navigation-link-favorites:hover .navigation-icon {
-  /*fill: #756157;*/
-  fill: red;
+  fill: #756157;
 }
 
 .navigation-user .navigation-item:last-child {
