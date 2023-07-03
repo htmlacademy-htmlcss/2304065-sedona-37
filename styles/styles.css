@@ -454,8 +454,9 @@ img {
 .subscribe-index {
   display: flex;
   flex-direction: column;
-  width: 1200px;
-  min-height: 415px;
+  padding: 96px 258px 104px;
+  /*width: 1200px;
+  min-height: 415px;*/
 
   background-color: #8e6456;
   background-image: url("../images/index/subscribe-background.jpg");
@@ -465,7 +466,6 @@ img {
 
 .subscribe-index-title {
   margin: 0 0 20px;
-  padding: 96px 308px 0;
 
   font-size: 30px;
   line-height: 36px;
@@ -477,7 +477,6 @@ img {
 
 .subscribe-index-subtitle {
   margin: 0 0 54px;
-  padding: 0 362px;
 
   font-size: 22px;
   line-height: 26px;
@@ -489,7 +488,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 0 104px;
 
   text-align: center;
 }
