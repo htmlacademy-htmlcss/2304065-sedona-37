@@ -398,21 +398,23 @@ img {
   text-align: center;
 }
 
-.services-item-second-1 {
+.services-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   width: 400px;
   min-height: 385px;
 
   text-align: center;
+}
 
+.services-item:nth-child(odd) {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.services-item-second-2 {
-  width: 400px;
-  min-height: 385px;
-
-  text-align: center;
-
+.services-item:nth-child(even) {
   background-color: rgba(131, 179, 211, 0.2);
 }
 
