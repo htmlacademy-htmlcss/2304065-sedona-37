@@ -252,6 +252,12 @@ img {
   vertical-align: middle;
 }
 
+.main-hero::before {
+  content: "";
+  background-image: url("../images/index/divider.svg");
+  position: absolute;
+}
+
 .img-hero {
   display: block;
   margin: 51px 371px 82px;
