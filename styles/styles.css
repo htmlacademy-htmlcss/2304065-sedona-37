@@ -693,14 +693,13 @@ img {
 /* catalog-products */
 
 .catalog-products {
-  padding: 0 70px;
+  padding: 50px 70px 60px;
 }
 
 .catalog-products-header {
   display: flex;
   align-items: center;
   margin: 0 0 40px;
-  padding: 50px 0 0;
 }
 
 .catalog-products-title {
@@ -837,7 +836,7 @@ img {
   flex-wrap: wrap;
   gap: 8px;
 
-  margin: 0 0 60px;
+  margin: 0;
   padding: 0;
 
   list-style-type: none;
@@ -896,11 +895,11 @@ img {
 .subscribe-catalog {
   text-align: center;
   background-color: #ffffff;
+  padding: 96px 258px 104px;
 }
 
 .subscribe-catalog-title {
   margin: 0 0 20px;
-  padding: 96px 398px 0;
 
   font-size: 30px;
   line-height: 36px;
@@ -912,7 +911,6 @@ img {
 
 .subscribe-catalog-subtitle {
   margin: 0 0 54px;
-  padding: 0 362px;
 
   font-size: 22px;
   line-height: 26px;
