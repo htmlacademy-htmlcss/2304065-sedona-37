@@ -241,9 +241,9 @@ img {
 /* main hero*/
 
 .main-hero {
+  display: flex;
+  justify-content: center;
   margin: 0;
-
-  text-align: center;
 
   background-color: #8e6456;
   background-image: url("../images/index/index-background.jpg");
@@ -253,6 +253,7 @@ img {
 }
 
 .img-hero {
+  display: block;
   margin: 51px 371px 82px;
 }
 
@@ -293,12 +294,9 @@ img {
 }
 
 .advantages-item-basic div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 400px;
   min-height: 385px;
+  padding: 103px 85px;
 
   color: #ffffff;
   text-align: center;
@@ -333,7 +331,6 @@ img {
 }
 
 .advantages-item-title {
-  padding: 0 112px;
   margin: 0 0 62px;
 
   font-size: 24px;
@@ -350,7 +347,6 @@ img {
 
 .advantages-item-text {
   margin: 0;
-  padding: 0 85px;
 }
 
 .advantages-img {
