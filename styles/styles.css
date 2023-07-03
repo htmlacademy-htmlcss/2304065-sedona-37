@@ -764,6 +764,10 @@ img {
   border: 1px solid #E6E6E6;
 }
 
+.products-cards-img {
+  display: block;
+}
+
 .hotel-link {
   text-decoration: none;
 }
@@ -818,6 +822,10 @@ img {
 
 .hotel-rating {
   margin: 0;
+}
+
+.hotel-rating-img {
+  display: block;
 }
 
 /* pagination */
