@@ -241,27 +241,21 @@ img {
 /* main hero*/
 
 .main-hero {
-  display: flex;
-  justify-content: center;
+  display: block;
+  padding: 51px 371px 82px;
   margin: 0;
 
   background-color: #8e6456;
-  background-image: url("../images/index/index-background.jpg");
-  background-size: 100% 100%;
+  background-image: url("../images/index/divider.svg"), url("../images/index/index-background.jpg");
+  background-position: center bottom;
   background-repeat: no-repeat;
-  vertical-align: middle;
-}
-
-.main-hero::before {
-  content: "";
-  background-image: url("../images/index/divider.svg");
-  position: absolute;
 }
 
 .img-hero {
   display: block;
-  margin: 51px 371px 82px;
 }
+
+
 
 /* advantages */
 
