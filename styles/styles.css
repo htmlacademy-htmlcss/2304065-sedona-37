@@ -255,14 +255,20 @@ img {
 /* main hero*/
 
 .main-hero {
-  display: block;
-  padding: 51px 371px 82px;
+  display: flex;
+  justify-content: center;
+  padding: 51px 0 82px;
   margin: 0;
 
   background-color: #8e6456;
   background-image: url("../images/index/divider.svg"), url("../images/index/index-background.jpg");
   background-position: center bottom;
   background-repeat: no-repeat;
+}
+
+.main-img {
+  padding: 0;
+  margin: 0;
 }
 
 .img-hero {
