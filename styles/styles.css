@@ -545,8 +545,6 @@ img {
   display: flex;
   flex-direction: column;
   padding: 96px 258px 104px;
-  /*width: 1200px;
-  min-height: 415px;*/
 
   background-color: #8e6456;
   background-image: url("../images/index/subscribe-background.jpg");
@@ -831,11 +829,21 @@ img {
 }
 
 .catalog-link {
+  position: relative;
+
   display: block;
   width: 48px;
   height: 48px;
+}
 
-  background-color: aqua;
+.catalog-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  margin: auto;
 }
 
 /* hotels = products-cards-list */
