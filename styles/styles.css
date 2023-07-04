@@ -215,6 +215,23 @@ img {
   text-decoration: none;
 }
 
+.navigation-item {
+  position: relative;
+}
+
+.navigation-link.current::after {
+  position: absolute;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+
+  height: 2px;
+
+  background-color: #756257;
+
+  content: "";
+}
+
 .navigation-user {
   display: flex;
   flex-wrap: wrap;
@@ -688,7 +705,6 @@ img {
   right: 10px;
   top: 5px;
 
-
   width: 8px;
   height: 11px;
 
@@ -871,7 +887,7 @@ img {
   border-radius: 4px;
 }
 
-.catalog-link.active {
+.catalog-link.current {
   border: 2px solid #000000;
 }
 
@@ -1005,7 +1021,7 @@ img {
 
 }
 
-.pagination-link.active {
+.pagination-link.current {
   color: #000000;
 
   background-color: #F2F2F2;
