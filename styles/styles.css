@@ -683,11 +683,14 @@ img {
   text-decoration: none;
 }
 
-.breadcrumds-link::after {
+.breadcrumds-link::before {
   position: absolute;
+  right: 10px;
+  top: 5px;
+
 
   width: 8px;
-  height: auto;
+  height: 11px;
 
   background-image: url("../images/catalog/arrow-right.svg");
   background-repeat: no-repeat;
@@ -695,6 +698,9 @@ img {
   content: "";
 }
 
+.breadcrumds-item:last-child .breadcrumds-link::before {
+  content: none;
+}
 
 
 /* filters */
