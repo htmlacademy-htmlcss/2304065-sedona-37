@@ -249,7 +249,7 @@ img {
 
   height: 2px;
 
-  background-color: #756257;
+  background-color: #615048;
 
   content: "";
 }
@@ -287,7 +287,7 @@ img {
 }
 
 .navigation-item:hover .navigation-icon {
-  fill: #756157;
+  fill: #615048;
 }
 
 .navigation-user .navigation-item:last-child {
