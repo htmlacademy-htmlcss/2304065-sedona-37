@@ -463,14 +463,16 @@ img {
 .services-item:nth-child(1) .services-item-title::after {
   position: absolute;
   left: 50%;
+  top: -102px;
 
 
   width: 75px;
   height: 72px;
-  margin: -102px 0 0 -37px;
 
   background-image: url("../images/index/housing.svg");
   background-repeat: no-repeat;
+
+  transform: translateX(-50%);
 
   content: "";
 }
@@ -478,14 +480,16 @@ img {
 .services-item:nth-child(2) .services-item-title::after {
   position: absolute;
   left: 50%;
+  top: -102px;
 
 
   width: 75px;
   height: 72px;
-  margin: -102px 0 0 -37px;
 
   background-image: url("../images/index/food.svg");
   background-repeat: no-repeat;
+
+  transform: translateX(-50%);
 
   content: "";
 }
@@ -493,14 +497,16 @@ img {
 .services-item:nth-child(3) .services-item-title::after {
   position: absolute;
   left: 50%;
+  top: -102px;
 
+  width: 65px;
+  height: 76px;
 
-  width: 75px;
-  height: 72px;
-  margin: -100px 0 0 -34px;
 
   background-image: url("../images/index/souvenirs.svg");
   background-repeat: no-repeat;
+
+  transform: translateX(-50%);
 
   content: "";
 }
