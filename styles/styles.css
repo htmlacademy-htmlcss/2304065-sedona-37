@@ -94,6 +94,10 @@ img {
   background-color: #756157;
 }
 
+.button-primary:hover {
+  background-color: #615048;
+}
+
 .button-secondary {
   background-color: #82B3D3;
 }
@@ -217,6 +221,19 @@ img {
 
 .navigation-item {
   position: relative;
+}
+
+.navigation-item:hover .navigation-link::after {
+  position: absolute;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+
+  height: 2px;
+
+  background-color: #756257;
+
+  content: "";
 }
 
 .navigation-link.current::after {
