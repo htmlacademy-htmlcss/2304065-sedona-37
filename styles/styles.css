@@ -439,7 +439,7 @@ img {
 .services-item {
   width: 400px;
   min-height: 385px;
-  padding: 80px 85px;
+  padding:182px 80px 85px;
 
   text-align: center;
 }
@@ -453,6 +453,7 @@ img {
 }
 
 .services-item-title {
+  position: relative;
   margin: 0 0 30px;
 
   font-size: 24px;
@@ -461,6 +462,51 @@ img {
   text-align: center;
   color: #000000;
   text-transform: uppercase;
+}
+
+.services-item:nth-child(1) .services-item-title::after {
+  position: absolute;
+  left: 50%;
+
+
+  width: 75px;
+  height: 72px;
+  margin: -102px 0 0 -37px;
+
+  background-image: url("../images/index/housing.svg");
+  background-repeat: no-repeat;
+
+  content: "";
+}
+
+.services-item:nth-child(2) .services-item-title::after {
+  position: absolute;
+  left: 50%;
+
+
+  width: 75px;
+  height: 72px;
+  margin: -102px 0 0 -37px;
+
+  background-image: url("../images/index/food.svg");
+  background-repeat: no-repeat;
+
+  content: "";
+}
+
+.services-item:nth-child(3) .services-item-title::after {
+  position: absolute;
+  left: 50%;
+
+
+  width: 75px;
+  height: 72px;
+  margin: -100px 0 0 -34px;
+
+  background-image: url("../images/index/souvenirs.svg");
+  background-repeat: no-repeat;
+
+  content: "";
 }
 
 .services-item-text {
