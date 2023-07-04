@@ -698,6 +698,10 @@ img {
   content: "";
 }
 
+.breadcrumds-item:last-child .breadcrumds-link {
+  margin: 0;
+}
+
 .breadcrumds-item:last-child .breadcrumds-link::before {
   content: none;
 }
