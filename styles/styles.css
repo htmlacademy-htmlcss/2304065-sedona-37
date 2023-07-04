@@ -666,16 +666,36 @@ img {
 
 .breadcrumds {
   display: flex;
+  align-items: center;
   margin: 0 0 40px;
   padding: 0;
 
   list-style-type: none;
 }
 
+.breadcrumds-item {
+  position: relative;
+}
+
 .breadcrumds-link {
+  margin: 0 28px 0 0;
   font-size: 16px;
   text-decoration: none;
 }
+
+.breadcrumds-link::after {
+  position: absolute;
+
+  width: 8px;
+  height: auto;
+
+  background-image: url("../images/catalog/arrow-right.svg");
+  background-repeat: no-repeat;
+
+  content: "";
+}
+
+
 
 /* filters */
 
