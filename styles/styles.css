@@ -134,6 +134,8 @@ img {
 
 .button-secondary:disabled {
   background-color: #E5E5E5;
+
+  cursor: default;
 }
 
 .button-current {
@@ -156,6 +158,8 @@ img {
 
 .button-current:disabled {
   background-color: #E5E5E5;
+
+  cursor: default;
 }
 
 .button-light {
@@ -176,6 +180,8 @@ img {
 
 .button-light:disabled {
   opacity: 0.1;
+
+  cursor: default;
 }
 
 .navigation-item .button-primary {
@@ -858,6 +864,21 @@ img {
   content: none;
 }
 
+.breadcrumds-item:hover path {
+  fill: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumds-item:active path {
+  fill: rgba(255, 255, 255, 0.3);
+}
+
+.breadcrumds-item:hover .breadcrumds-link {
+  fill: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumds-item:active .breadcrumds-link {
+  fill: rgba(255, 255, 255, 0.63);
+}
 
 /* filters */
 
