@@ -724,6 +724,26 @@ img {
   margin: auto;
 }
 
+.social-icon path {
+  fill: #83B3D3;
+}
+
+.footer-social-item {
+  position: relative;
+}
+
+.footer-social-item:hover path {
+  fill: #68A2CA;
+}
+
+.footer-social-item:focus path {
+  fill: #83B3D3;
+}
+
+.footer-social-item:active path {
+  fill: #68A2CA4D;
+}
+
 .footer-contacts {
   margin: 0;
   padding: 45px 0 35px;
