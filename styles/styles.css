@@ -340,6 +340,27 @@ img {
   width: 44px;
   height: 64px;
   padding: 24px 13px;
+
+  text-decoration: none;
+}
+
+.favorites-counter {
+  position: absolute;
+  bottom: 33px;
+  left: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+
+  font-size: 10px;
+  line-height: 10px;
+  color: #ffffff;
+
+  background-color: #7DB54F;
+  border-radius: 50%;
 }
 
 .navigation-item:hover .navigation-icon {
