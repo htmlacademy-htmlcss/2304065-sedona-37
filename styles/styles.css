@@ -1037,6 +1037,14 @@ img {
   margin: auto;
 }
 
+.catalog-link:hover {
+  border: 2px solid #000000;
+}
+
+.catalog-link:active {
+  border: 2px solid #000000;
+}
+
 /* hotels = products-cards-list */
 
 .products-cards-list {
@@ -1157,18 +1165,65 @@ img {
 
 }
 
-.pagination-link.current {
-  color: #000000;
+.pagination-link-current {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
 
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+
+  background-color: #F2F2F2;
+  border-radius: 4px;
+}
+
+.pagination-link-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.pagination-link-current:hover {
   background-color: #F2F2F2;
 }
 
-.pagination-link.all {
-  color: #000000;
-
-  background-color: #ffffff;
+.pagination-link-current:focus {
+  background-color: #F2F2F2;
 }
 
+.pagination-link-current:active {
+  background-color: #F2F2F2;
+}
+
+.pagination-link:hover {
+  background-color: #68A2CA;
+}
+
+.pagination-link:focus {
+  background-color: #68A2CA;
+}
+
+.pagination-link:active {
+  color: rgba(255, 255, 255, 0.3);
+}
 
 /* subscribe-catalog */
 
