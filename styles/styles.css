@@ -109,8 +109,6 @@ img {
 }
 
 .button-primary:disabled {
-  color: #ffffff;
-
   background-color: #E5E5E5;
 
   cursor: default;
@@ -120,12 +118,64 @@ img {
   background-color: #82B3D3;
 }
 
+.button-secondary:hover {
+  background-color: #68A2CA;
+}
+
+.button-secondary:focus {
+  background-color: #68A2CA;
+}
+
+.button-secondary:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #82B3D3;
+}
+
+.button-secondary:disabled {
+  background-color: #E5E5E5;
+}
+
 .button-current {
   background-color: #7DB54F;
 }
 
+.button-current:hover {
+  background-color: #6C9E42;
+}
+
+.button-current:focus {
+  background-color: #6C9E42;
+}
+
+.button-current:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #7DB54F;
+}
+
+.button-current:disabled {
+  background-color: #E5E5E5;
+}
+
 .button-light {
   background-color: rgba(255, 255, 255, 0);
+}
+
+.button-light:hover {
+  opacity: 0.6;
+}
+
+.button-light:focus {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.button-light:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-light:disabled {
+  opacity: 0.1;
 }
 
 .navigation-item .button-primary {
