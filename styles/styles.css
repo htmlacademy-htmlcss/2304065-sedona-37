@@ -728,10 +728,6 @@ img {
   fill: #83B3D3;
 }
 
-.footer-social-item {
-  position: relative;
-}
-
 .footer-social-item:hover path {
   fill: #68A2CA;
 }
@@ -754,13 +750,48 @@ img {
   padding: 48px 0 39px;
 }
 
-
 .footer-phone-link {
   font-style: normal;
   font-size: 40px;
   line-height: 40px;
   color: #000000;
   text-decoration: none;
+}
+
+.footer-phone-link:hover {
+  color: #756157;
+}
+
+.footer-phone-link:focus {
+  color: #756157;
+}
+
+.footer-phone-link:active {
+  color: #7561574D;
+}
+
+.footer-phone-link:visited {
+  color: #000000;
+}
+
+.about-logo {
+  fill: #000000;
+}
+
+.footer-about-us-link:hover path {
+  fill: #756157;
+}
+
+.footer-about-us-link:focus path {
+  fill: #756157;
+}
+
+.footer-about-us-link:active path {
+  fill: #7561574D;
+}
+
+.footer-about-us:visited {
+  fill: #000000;
 }
 
 /* inner-header */
