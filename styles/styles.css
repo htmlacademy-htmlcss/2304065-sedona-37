@@ -297,17 +297,8 @@ img {
   position: relative;
 }
 
-.navigation-item:hover .navigation-link::after {
-  position: absolute;
-  right: 16px;
-  bottom: 0;
-  left: 16px;
-
-  height: 2px;
-
-  background-color: #615048;
-
-  content: "";
+.navigation-item:hover .navigation-link {
+  opacity: 0.6;
 }
 
 .navigation-link.current::after {
