@@ -1553,3 +1553,20 @@ img {
   font-weight: 700;
   color: #000000;
 }
+
+.modal-search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.modal-search-field {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-people {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
