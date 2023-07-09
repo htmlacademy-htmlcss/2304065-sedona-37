@@ -1033,6 +1033,7 @@ img {
   background-image: url("../images/catalog/checkmark.svg");
   background-position: center;
   background-repeat: no-repeat;
+  outline: none;
 
   content: "";
 }
@@ -1043,10 +1044,18 @@ img {
   background-image: url("../images/catalog/radio.svg");
   background-position: center;
   background-repeat: no-repeat;
+  outline: none;
 
   content: "";
 }
 
+.input-checkbox[type="checkbox"]:focus-visible + .infrastructure-checkbox {
+  outline: 2px solid #000000;
+}
+
+.input-radio[type="radio"]:focus-visible + .infrastructure-radio {
+  outline: 2px solid #000000;
+}
 
 .catalog-filters-description {
   padding: 0 0 0 36px;
@@ -1567,6 +1576,7 @@ img {
 
 .modal-search-field {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin: 0;
