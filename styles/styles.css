@@ -1527,8 +1527,8 @@ img {
 .modal-search {
   position: relative;
 
-  margin: auto;
   width: 717px;
+  margin: auto;
   padding: 64px 70px;
 
   background-color: #ffffff;
@@ -1563,10 +1563,24 @@ img {
 .modal-search-field {
   display: flex;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.input-date {
+  margin: 0;
+  padding: 0;
 }
 
 .input-people {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.input-people-field {
+  margin: 0;
+  padding: 0;
 }
