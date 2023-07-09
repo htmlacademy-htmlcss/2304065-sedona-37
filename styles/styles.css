@@ -108,7 +108,8 @@ img {
   background-color: #756157;
 }
 
-.button-primary:disabled {
+.button-primary:disabled,
+.button-primary:disabled:hover {
   background-color: #E5E5E5;
 
   cursor: default;
@@ -132,7 +133,8 @@ img {
   background-color: #82B3D3;
 }
 
-.button-secondary:disabled {
+.button-secondary:disabled,
+.button-secondary:disabled:hover {
   background-color: #E5E5E5;
 
   cursor: default;
@@ -156,7 +158,8 @@ img {
   background-color: #7DB54F;
 }
 
-.button-current:disabled {
+.button-current:disabled,
+.button-current:disabled:hover {
   background-color: #E5E5E5;
 
   cursor: default;
@@ -178,7 +181,8 @@ img {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.button-light:disabled {
+.button-light:disabled,
+.button-light:disabled:hover {
   opacity: 0.1;
 
   cursor: default;
