@@ -177,22 +177,24 @@
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
           <form class="modal-search-form" action="https://echo.htmlacademy.ru/" method="post">
             <fieldset class="modal-search-field">
-              <p class="input-title">Дата заезда:</p>
+              <label class="input-title">Дата Заезда:</label>
               <div class="input-date-container">
                 <input class="input-date" type="text" name="date-entry" placeholder="27 апреля 2020">
+                <span class="visually-hidden">Выбрать дату заезда.</span>
                 <p class="inpute-date-error">Мы не можем отправить вас в прошлое.</p>
               </div>
             </fieldset>
             <fieldset class="modal-search-field">
-              <p class="input-title">Дата заезда:</p>
+              <label class="input-title">Дата Выезда:</label>
               <div class="input-date-container">
                 <input class="input-date" type="text" name="date-departure" placeholder="1 сентября 2023">
+                <span class="visually-hidden">Выбрать дату выезда.</span>
                 <p class="inpute-date-error">На эти даты есть свободные номера. Пока есть.</p>
               </div>
             </fieldset>
             <div class="input-people">
               <fieldset class="input-people-field">
-                <p class="input-title">Взрослые:</p>
+                <label class="input-title">Взрослые:</label>
                 <button class="button-people-away" type="button">
                   <span class="visually-hidden">Добавить взрослого.</span>
                 </button>
@@ -202,7 +204,7 @@
                 </button>
               </fieldset>
               <fieldset class="input-people-field">
-                <p class="input-title">Дети:</p>
+                <label class="input-title">Дети:</label>
                 <button class="button-people-away" type="button">
                   <span class="visually-hidden">Добавить ребенка.</span>
                 </button>

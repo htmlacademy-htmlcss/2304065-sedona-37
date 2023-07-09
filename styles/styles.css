@@ -1569,8 +1569,12 @@ img {
 }
 
 .input-date-container {
+  position: relative;
+
   width: 440px;
 }
+
+
 
 .inpute-date-error {
   margin: 4px 0 0;
@@ -1610,6 +1614,10 @@ img {
   font-weight: 700;
   color: #000000;
 
+  background-image: url("../images/calendar.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+
   background-color: #F2F2F2;
   border: none;
   border-radius: 4px;
@@ -1632,6 +1640,9 @@ img {
 }
 
 .input-people-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 0;
   padding: 0;
 }
