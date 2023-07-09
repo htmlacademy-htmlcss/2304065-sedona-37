@@ -969,7 +969,8 @@ img {
   list-style-type: none;
 }
 
-.infrastructure {
+.infrastructure,
+.housing {
   position: relative;
 
   display: block;
@@ -977,6 +978,8 @@ img {
 
 .infrastructure-checkbox {
   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 
   width: 20px;
   height: 20px;
@@ -987,6 +990,9 @@ img {
 
 .infrastructure-radio {
   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
 
   width: 20px;
   height: 20px;
