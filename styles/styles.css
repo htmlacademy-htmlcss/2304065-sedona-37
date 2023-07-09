@@ -1419,15 +1419,15 @@ img {
 }
 
 .pagination-link-current:hover {
-  background-color: #F2F2F2;
+  opacity: 0.6;
 }
 
 .pagination-link-current:focus {
-  background-color: #F2F2F2;
+  opacity: 0.6;
 }
 
 .pagination-link-current:active {
-  background-color: #F2F2F2;
+  opacity: 0.3;
 }
 
 .pagination-link:hover {
@@ -1440,6 +1440,18 @@ img {
 
 .pagination-link:active {
   color: rgba(255, 255, 255, 0.3);
+}
+
+.pagination-link-all:hover {
+  background-color: #F2F2F2;
+}
+
+.pagination-link-all:focus {
+  background-color: #F2F2F2;
+}
+
+.pagination-link-all:active {
+  opacity: 0.3;
 }
 
 /* subscribe-catalog */
