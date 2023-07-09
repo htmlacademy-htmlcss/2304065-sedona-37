@@ -1075,9 +1075,20 @@ img {
   background-image: url("../images/catalog/arrow-down.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
+
+  border: 2px solid #E5E5E5;
   border-radius: 4px;
-  border-color: #E5E5E5;
+
   appearance: none;
+}
+
+.select-range:hover {
+  border-color: #68A2CA;
+}
+
+.select-range:disabled,
+.select-range:disabled:hover {
+  opacity: 0.3;
 }
 
 .catalog-visually {
