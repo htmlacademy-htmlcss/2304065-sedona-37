@@ -969,8 +969,7 @@ img {
   list-style-type: none;
 }
 
-.infrastructure,
-.housing {
+.infrastructure {
   position: relative;
 
   display: block;
@@ -1000,6 +999,35 @@ img {
   background-color: #ffffff;
   border-radius: 50%;
 }
+
+.infrastructure:hover {
+  opacity: 0.6;
+}
+
+.infrastructure:active {
+  opacity: 0.3;
+}
+
+.input-checkbox[type="checkbox"]:checked + .infrastructure-checkbox {
+  position: absolute;
+
+  background-image: url("../images/catalog/checkmark.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+
+  content: "";
+}
+
+.input-radio[type="radio"]:checked + .infrastructure-radio {
+  position: absolute;
+
+  background-image: url("../images/catalog/radio.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+
+  content: "";
+}
+
 
 .catalog-filters-description {
   padding: 0 0 0 36px;
