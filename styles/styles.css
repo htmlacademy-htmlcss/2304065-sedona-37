@@ -714,7 +714,7 @@ img {
   font-weight: 700;
   color: #000000;
 
-  border-radius: 4px 0px 0px 4px;
+  border-radius: 4px 0 0 4px;
   border: none;
 }
 
@@ -945,6 +945,8 @@ img {
   width: 151px;
   margin: 0;
   padding: 0;
+
+  border: none;
 }
 
 .catalog-filters-title {
@@ -965,6 +967,36 @@ img {
   line-height: 23px;
 
   list-style-type: none;
+}
+
+.infrastructure {
+  position: relative;
+
+  display: block;
+}
+
+.infrastructure-checkbox {
+  position: absolute;
+
+  width: 20px;
+  height: 20px;
+
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.infrastructure-radio {
+  position: absolute;
+
+  width: 20px;
+  height: 20px;
+
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.catalog-filters-description {
+  padding: 0 0 0 36px;
 }
 
 .catalog-range {
