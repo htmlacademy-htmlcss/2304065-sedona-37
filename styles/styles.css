@@ -1568,6 +1568,7 @@ img {
 .modal-search-field {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 0;
   padding: 0;
 
@@ -1575,8 +1576,29 @@ img {
 }
 
 .input-date {
+  width: 440px;
+  height: 48px;
   margin: 0;
-  padding: 0;
+  padding: 12px 20px;
+  flex-shrink: 0;
+
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+
+  background-color: #F2F2F2;
+  border: none;
+  border-radius: 4px;
+}
+
+.input-date::placeholder {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
 }
 
 .input-people {
