@@ -1546,3 +1546,10 @@ img {
   color: #000000;
   text-transform: uppercase;
 }
+
+.input-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+}
