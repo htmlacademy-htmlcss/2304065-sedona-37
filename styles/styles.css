@@ -702,6 +702,20 @@ img {
   text-align: center;
 }
 
+.field-email {
+  flex-grow: 1;
+  padding: 12px 20px;
+  width: 452px;
+  height: 52px;
+
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+
+  border-radius: 4px 0px 0px 4px;
+  border: none;
+}
+
 /* footer */
 
 .main-footer {
