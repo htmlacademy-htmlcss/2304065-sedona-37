@@ -175,6 +175,41 @@
             <span class="visually-hidden">Закрыть окно</span>
           </button>
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+          <form class="modal-search-form" action="https://echo.htmlacademy.ru/" method="post">
+            <fieldset class="modal-search-field">
+              <legend class="date-title">Дата заезда:</legend>
+              <input class="input-date" type="text" name="date-entry" placeholder="27 апреля 2020">
+            </fieldset>
+            <fieldset class="modal-search-field">
+              <legend class="date-title">Дата заезда:</legend>
+              <input class="input-date" type="text" name="date-departure" placeholder="1 сентября 2023">
+            </fieldset>
+            <div class="input-people">
+              <fieldset class="modal-search-field">
+                <legend class="input-title">Взрослые:</legend>
+                <button class="button-people-away" type="button">
+                  <span class="visually-hidden">Добавить взрослого.</span>
+                </button>
+                <input class="input-people" type="number" name="adult" max="10" value="2">
+                <button class="button-people-add" type="button">
+                  <span class="visually-hidden">Удалить взрослого.</span>
+                </button>
+              </fieldset>
+            </div>
+            <div class="input-people">
+              <fieldset class="modal-search-field">
+                <legend class="input-title">Дети:</legend>
+                <button class="button-people-away" type="button">
+                  <span class="visually-hidden">Добавить ребенка.</span>
+                </button>
+                <input class="input-people" type="number" name="adult" max="10" value="2">
+                <button class="button-people-add" type="button">
+                  <span class="visually-hidden">Удалить ребенка.</span>
+                </button>
+              </fieldset>
+            </div>
+            <button class="button button-secondary" type="submit">Найти</button>
+          </form>
         </div>
       </div>
     </div>
