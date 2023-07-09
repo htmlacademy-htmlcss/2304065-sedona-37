@@ -711,9 +711,30 @@ img {
   font-family: inherit;
   font-size: 18px;
   line-height: 24px;
+  font-weight: 700;
+  color: #000000;
 
   border-radius: 4px 0px 0px 4px;
   border: none;
+}
+
+.field-email::placeholder {
+  font-weight: 400;
+
+  opacity: 0.6;
+}
+
+.field-email:hover {
+  background-color: #E6E6E6;
+}
+
+.field-email:focus {
+  background-color: #E6E6E6;
+}
+
+.field-email:disabled,
+.field-email:disabled:hover {
+  color: #0000004D;
 }
 
 /* footer */
@@ -1298,4 +1319,12 @@ img {
   line-height: 26px;
   text-align: center;
   color: #000000;
+}
+
+.subscribe-catalog .field-email {
+  background-color: #F2F2F2;
+}
+
+.subscribe-catalog .field-email:hover {
+  background-color: #E6E6E6;
 }
