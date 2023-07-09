@@ -263,14 +263,10 @@ img {
   cursor: pointer;
 }
 
-.button-range:hover {
-  opacity: 0.6;
-}
-
+.button-range:hover,
 .button-range:active {
-  opacity: 0.3;
+  box-shadow: 0 0 10px #333333;
 }
-
 
 /* header */
 
@@ -1060,7 +1056,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 0 36px;
+  margin: 0 0 44px;
   padding: 0;
 
   list-style-type: none;
@@ -1069,19 +1065,44 @@ img {
 .price-min,
 .price-max {
   width: 143px;
-  padding: 0;
+  padding: 12px 20px;
 
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
   color: #000000;
+
+  background-color: #F2F2F2;
+  border: none;
+  appearance: textfield;
+}
+
+.price-min::-webkit-outer-spin-button,
+.price-min::-webkit-inner-spin-button,
+.price-max::-webkit-outer-spin-button,
+.price-max::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+.price-min {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.price-max {
+  border-radius: 0px 4px 4px 0px;
+}
+
+.price-min:hover,
+.price-max:hover,
+.price-min:focus,
+.price-max:focus {
+  background-color: #E6E6E6;
 }
 
 .catalog-filters-item {
   margin: 0 0 16px;
 }
-
-
 
 .catalog-filters-item:last-child {
   margin: 0;
