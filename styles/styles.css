@@ -1557,10 +1557,10 @@ img {
 }
 
 .input-title {
-  display: inline-block;
-  padding: 0;
+  align-self: flex-start;
+  width: 120px;
+  padding: 12px 0 0;
   margin: 0;
-
 
   font-size: 20px;
   line-height: 24px;
@@ -1568,10 +1568,22 @@ img {
   color: #000000;
 }
 
+.input-date-container {
+  width: calc(100%-120px);
+}
+
+.inpute-date-error {
+  margin: 4px 0 0;
+  padding: 0 20px;
+}
+
+.modal-search-field:first-child .inpute-date-error {
+  color: #FF5757;
+}
+
 .modal-search-form {
   display: flex;
   flex-direction: column;
-  gap: 48px;
 }
 
 .modal-search-field {
@@ -1579,7 +1591,7 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin: 0;
+  margin: 0 0 23px;
   padding: 0;
 
   border: none;
@@ -1615,7 +1627,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0;
+  margin: 0 0 48px;
   padding: 0;
 }
 
