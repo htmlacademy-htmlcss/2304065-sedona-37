@@ -1697,6 +1697,8 @@ img {
 }
 
 .input-people-field {
+  position: relative;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1773,4 +1775,66 @@ img {
   fill: #756157;
 
   opacity: 0.3;
+}
+
+.button-tooltip {
+  position: absolute;
+
+  transform: translateY(-50%);
+
+  display: block;
+  width: 26px;
+  height: 26px;
+  padding: 7px 12px;
+
+  background-color: #83B3D3;
+  border-radius: 50%;
+  border: none;
+}
+
+.button-tooltip:hover {
+  background-color: #68A2CA;
+}
+
+.button-tooltip:hover + .tooltip-description,
+.button-tooltip:focus + .tooltip-description {
+  display: block;
+}
+
+.tooltip {
+  position: absolute;
+  left: 59px;
+}
+
+.tooltip-description {
+  position: absolute;
+  left: -115px;
+
+  width: 256px;
+  margin: 28px 0 0;
+  padding: 15px 18px 18px 22px;
+
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+
+  background-color: #333333;
+  border-radius: 10px;
+  box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.30);
+
+  display: none;
+}
+
+.tooltip-description::before {
+  position: absolute;
+  top: -9px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 19px;
+  height: 9px;
+
+  background-image: url("../images/triangle.svg");
+  background-repeat: no-repeat;
+  content: "";
 }
