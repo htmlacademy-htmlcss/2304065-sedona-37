@@ -1702,6 +1702,8 @@ img {
   align-items: center;
   margin: 0;
   padding: 0;
+
+  border: none;
 }
 
 .button-people {
@@ -1721,4 +1723,34 @@ img {
 
 .button-people-add {
   border-radius: 0 4px 4px 0;
+}
+
+.input-adult,
+.input-child {
+  width: 31px;
+  padding: 14px 10px;
+
+
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+
+  background-color: #F2F2F2;
+  border: none;
+
+  appearance: textfield;
+}
+
+.input-adult::-webkit-outer-spin-button,
+.input-adult::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.input-child::-webkit-outer-spin-button,
+.input-child::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
 }
