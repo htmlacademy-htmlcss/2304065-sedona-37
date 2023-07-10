@@ -1703,3 +1703,22 @@ img {
   margin: 0;
   padding: 0;
 }
+
+.button-people {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 48px;
+
+  background-color: #F2F2F2;
+  border: none;
+}
+
+.button-people-away {
+  border-radius: 4px 0 0 4px;
+}
+
+.button-people-add {
+  border-radius: 0 4px 4px 0;
+}
