@@ -272,6 +272,32 @@ img {
   box-shadow: 0 0 10px #333333;
 }
 
+.button-calendar {
+  position: absolute;
+  top:12px;
+  right: 20px;
+
+  width: 20px;
+  height: 20px;
+
+  background-image: url("../images/calendar.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.modal-search-form .button {
+  padding: 18px 77px;
+
+  font-size: 20px;
+  line-height: 24px;
+
+  border-radius: 10px;
+}
+
 /* header */
 
 .main-header {
@@ -1574,8 +1600,6 @@ img {
   width: 440px;
 }
 
-
-
 .inpute-date-error {
   margin: 4px 0 0;
   padding: 0 20px;
@@ -1606,7 +1630,6 @@ img {
   height: 48px;
   margin: 0;
   padding: 12px 20px;
-  flex-shrink: 0;
 
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
@@ -1614,9 +1637,9 @@ img {
   font-weight: 700;
   color: #000000;
 
-  background-image: url("../images/calendar.svg");
+  /*background-image: url("../images/calendar.svg");
   background-repeat: no-repeat;
-  background-position: right 20px center;
+  background-position: right 20px center;*/
 
   background-color: #F2F2F2;
   border: none;
