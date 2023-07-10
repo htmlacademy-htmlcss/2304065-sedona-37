@@ -1224,7 +1224,7 @@ img {
 }
 
 .catalog-range-title {
-  margin: 0 0 20px;
+  margin: 0 0 32px;
   padding: 0;
 
   font-size: 20px;
@@ -1256,7 +1256,7 @@ img {
 
 .range-price-max {
   top: -8px;
-  left: 216px;
+  left: 206px;
 }
 
 .filters-buttons {
