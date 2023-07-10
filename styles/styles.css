@@ -1745,12 +1745,32 @@ img {
 
 .input-adult::-webkit-outer-spin-button,
 .input-adult::-webkit-inner-spin-button {
-  appearance: none;
   margin: 0;
+
+  appearance: none;
 }
 
 .input-child::-webkit-outer-spin-button,
 .input-child::-webkit-inner-spin-button {
-  appearance: none;
   margin: 0;
+
+  appearance: none;
+}
+
+.button-people:hover path {
+  fill: #000000;
+  fill-opacity: 1;
+
+}
+
+.button-people:focus-visible path {
+  fill: #000000;
+
+  fill-opacity: 1;
+}
+
+.button-people:active path {
+  fill: #756157;
+
+  opacity: 0.3;
 }
