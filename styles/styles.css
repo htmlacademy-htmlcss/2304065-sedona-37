@@ -1671,21 +1671,21 @@ img {
   font-weight: 700;
   color: #000000;
 
-  /*background-image: url("../images/calendar.svg");
-  background-repeat: no-repeat;
-  background-position: right 20px center;*/
-
   background-color: #F2F2F2;
   border: none;
   border-radius: 4px;
 }
 
 .input-date::placeholder {
-  font-family: "PT Sans", sans-serif;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 700;
-  color: #000000;
+  opacity: 0.6;
+}
+
+.input-date:hover {
+  background-color: #E6E6E6;
+}
+
+.input-date:focus-visible {
+  background-color: #E6E6E6;
 }
 
 .input-people {
