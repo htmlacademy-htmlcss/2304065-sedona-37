@@ -198,30 +198,24 @@
               </div>
             </fieldset>
             <div class="input-people">
-              <fieldset class="input-people-field input-people-adult">
-                <div class="input-title-container">
-                  <label class="input-title input-title-adult">Взрослые:</label>
-                </div>
-                <div class="input-button-container">
-                  <button class="button-people button-people-away" type="button">
-                    <svg aria-hidden="true" width="14" height="2" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0v2h14V0H0Z" fill="#756157" fill-opacity=".3"/>
-                    </svg>
-                    <span class="visually-hidden">Удалить взрослого.</span>
-                  </button>
-                  <input class="input-adult" readonly type="number" name="adult" min="0" max="9" value="2">
-                  <button class="button-people button-people-add" type="button">
-                    <svg aria-hidden="true" width="14" height="14"  viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M14 6H8V0H6v6H0v2h6v6h2V8h6V6Z" fill="#756157" fill-opacity=".3"/>
-                    </svg>
-                    <span class="visually-hidden">Добавить взрослого.</span>
-                  </button>
-                </div>
+              <fieldset class="input-people-field">
+                <label class="input-title-adult">Взрослые:</label>
+                <button class="button-people button-people-away" type="button">
+                  <svg aria-hidden="true" width="14" height="2" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0v2h14V0H0Z" fill="#756157" fill-opacity=".3"/>
+                  </svg>
+                  <span class="visually-hidden">Удалить взрослого.</span>
+                </button>
+                <input class="input-adult" readonly type="number" name="adult" min="0" max="9" value="2">
+                <button class="button-people button-people-add" type="button">
+                  <svg aria-hidden="true" width="14" height="14"  viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 6H8V0H6v6H0v2h6v6h2V8h6V6Z" fill="#756157" fill-opacity=".3"/>
+                  </svg>
+                  <span class="visually-hidden">Добавить взрослого.</span>
+                </button>
               </fieldset>
               <fieldset class="input-people-field">
-                <div class="input-title-container">
-                  <label class="input-title">Дети:</label>
-                </div>
+                <label class="input-title-child">Дети:</label>
                 <div class="tooltip">
                   <button class="button-tooltip">
                     <svg aria-hidden="true" width="2" height="12" viewBox="0 0 2 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -231,21 +225,19 @@
                   </button>
                   <p class="tooltip-description">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</p>
                 </div>
-                <div class="input-button-container">
-                  <button class="button-people button-people-away" type="button">
-                    <svg aria-hidden="true" width="14" height="2" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0v2h14V0H0Z" fill="#756157" fill-opacity=".3"/>
-                    </svg>
-                    <span class="visually-hidden">Удалить ребенка.</span>
-                  </button>
-                  <input class="input-child" readonly type="number" name="child" min="0" max="9" value="2">
-                  <button class="button-people button-people-add" type="button">
-                    <svg aria-hidden="true" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M14 6H8V0H6v6H0v2h6v6h2V8h6V6Z" fill="#756157" fill-opacity=".3"/>
-                    </svg>
-                    <span class="visually-hidden">Добавить ребенка.</span>
-                  </button>
-                </div>
+                <button class="button-people button-people-away" type="button">
+                  <svg aria-hidden="true" width="14" height="2" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0v2h14V0H0Z" fill="#756157" fill-opacity=".3"/>
+                  </svg>
+                  <span class="visually-hidden">Удалить ребенка.</span>
+                </button>
+                <input class="input-child" readonly type="number" name="child" min="0" max="9" value="2">
+                <button class="button-people button-people-add" type="button">
+                  <svg aria-hidden="true" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 6H8V0H6v6H0v2h6v6h2V8h6V6Z" fill="#756157" fill-opacity=".3"/>
+                  </svg>
+                  <span class="visually-hidden">Добавить ребенка.</span>
+                </button>
               </fieldset>
             </div>
             <button class="button button-secondary" type="submit">Найти</button>

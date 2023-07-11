@@ -1646,14 +1646,24 @@ img {
   color: #000000;
 }
 
-.input-title-container {
-  display: flex;
-  flex-wrap: wrap;
+.input-title-adult {
   width: 120px;
+  margin: 0 17px 0 0;
+
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
 }
 
-.input-title-adult {
-  width: 100px;
+.input-title-child {
+  width: 49px;
+  margin: 0 10px 0 0;
+
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
 }
 
 .input-date-container {
@@ -1729,10 +1739,17 @@ img {
   position: relative;
 
   display: flex;
+  align-items: center;
+
+  width: 50%;
   margin: 0;
   padding: 0;
 
   border: none;
+}
+
+.input-people-field:last-child {
+  justify-content: flex-end;
 }
 
 .input-field-adult {
@@ -1740,14 +1757,6 @@ img {
   flex-wrap: wrap;
 }
 
-.input-people-field:first-child {
-  width: 247px;
-}
-
-.input-people-field:last-child {
-  justify-content: flex-end;
-  width: 247px;
-}
 
 .button-people {
   display: flex;
@@ -1825,10 +1834,6 @@ img {
 }
 
 .button-tooltip {
-  position: absolute;
-  left: 59px;
-  bottom: 10px;
-
   display: block;
   width: 26px;
   height: 26px;
@@ -1850,12 +1855,20 @@ img {
 
 .tooltip {
   position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  margin: 0 46px 0 0;
 }
 
 .tooltip-description {
   position: absolute;
-  top: 23px;
-  left: -56px;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
 
   width: 256px;
   margin: 28px 0 0;
