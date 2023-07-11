@@ -1630,6 +1630,9 @@ img {
 }
 
 .input-title {
+  position: relative;
+
+  display: flex;
   align-self: flex-start;
   flex-wrap: wrap;
   width: 130px;
@@ -1716,19 +1719,14 @@ img {
 
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 
   border: none;
 }
-
-.input-title-adult {
-  display: flex;
-  flex-wrap: wrap;
-  width: auto;
-  margin: 0;
-  padding: 0;
+.input-people-field:first-child {
+  width: 247px;
 }
 
 .button-people {
@@ -1768,6 +1766,12 @@ img {
   appearance: textfield;
 }
 
+.input-button-container {
+  display: flex;
+
+  width: 110px;
+}
+
 .input-adult::-webkit-outer-spin-button,
 .input-adult::-webkit-inner-spin-button {
   margin: 0;
@@ -1802,8 +1806,8 @@ img {
 
 .button-tooltip {
   position: absolute;
-
-  transform: translateY(-50%);
+  left: 59px;
+  bottom: 10px;
 
   display: block;
   width: 26px;
@@ -1826,12 +1830,12 @@ img {
 
 .tooltip {
   position: relative;
-  /*left: -94px;*/
 }
 
 .tooltip-description {
   position: absolute;
-  left: -115px;
+  top: 23px;
+  left: -56px;
 
   width: 256px;
   margin: 28px 0 0;
