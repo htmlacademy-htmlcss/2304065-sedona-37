@@ -942,6 +942,7 @@ img {
 /* inner-header */
 
 .inner-header {
+  min-height: 412px;
   margin: 0;
   padding: 0 70px 70px;
 
@@ -1292,8 +1293,11 @@ img {
 .select-range {
   position: relative;
 
+  width: 292px;
+  height: 49px;
   padding: 14px 20px;
 
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
@@ -1303,7 +1307,7 @@ img {
 
   background-image: url("../images/catalog/arrow-down.svg");
   background-repeat: no-repeat;
-  background-position: right 20px center;
+  background-position: right 18px center;
 
   border: 2px solid #E5E5E5;
   border-radius: 4px;
@@ -1382,10 +1386,14 @@ img {
   flex-direction: column;
   flex-grow: 1;
   gap: 16px;
-  padding: 20px;
+  padding: 19px;
 
   border-radius: 4px;
   border: 1px solid #E6E6E6;
+}
+
+.products-img-link {
+  padding: 0;
 }
 
 .products-cards-img {
