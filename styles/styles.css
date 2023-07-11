@@ -312,6 +312,7 @@ img {
   background-color: #F2F2F2;
   border-radius: 50%;
   border: none;
+  cursor: pointer;
 }
 
 .button-close:hover {
@@ -1728,13 +1729,17 @@ img {
   position: relative;
 
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 
   border: none;
 }
+
+.input-field-adult {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .input-people-field:first-child {
   width: 247px;
 }
