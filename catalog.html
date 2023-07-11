@@ -17,7 +17,7 @@
               <a class="navigation-link" href="index.html">Главная</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="#">О седоне</a>
+              <a class="navigation-link" href="#">О Седоне</a>
             </li>
             <li class="navigation-item">
               <a class="navigation-link current">Гостиницы</a>
@@ -73,37 +73,49 @@
                   <ul class="catalog-filters-list">
                     <li class="catalog-filters-item">
                       <label class="infrastructure">
-                        <input class="infrastructure-checkbox" type="checkbox" name="pool" checked>Бассейн
+                        <input class="visually-hidden input-checkbox" type="checkbox" name="pool" checked>
+                        <span class="infrastructure-checkbox"></span>
+                        <span class="catalog-filters-description">Бассейн</span>
                       </label>
                     </li>
                     <li class="catalog-filters-item">
                       <label class="infrastructure">
-                        <input class="infrastructure-checkbox" type="checkbox" name="parking" checked>Парковка
+                        <input class="visually-hidden input-checkbox" type="checkbox" name="parking" checked>
+                        <span class="infrastructure-checkbox"></span>
+                        <span class="catalog-filters-description">Парковка</span>
                       </label>
                     </li>
                     <li class="catalog-filters-item">
                       <label class="infrastructure">
-                        <input class="infrastructure-checkbox" type="checkbox" name="wireless">Wi-Fi
+                        <input class="visually-hidden input-checkbox" type="checkbox" name="wireless">
+                        <span class="infrastructure-checkbox"></span>
+                        <span class="catalog-filters-description">Wi-Fi</span>
                       </label>
                     </li>
                   </ul>
                 </fieldset>
                 <fieldset class="catalog-filters-group">
-                  <legend class="catalog-filters-title">Тип жилья:</legend>
+                  <legend class="catalog-filters-title">Тип Жилья:</legend>
                   <ul class="catalog-filters-list">
                     <li class="catalog-filters-item">
-                      <label class="housing">
-                        <input class="infrastructure-radio" type="radio" value="hotel" name="housing-group" checked>Гостиница
+                      <label class="infrastructure">
+                        <input class="visually-hidden input-radio" type="radio" value="hotel" name="housing-group" checked>
+                        <span class="infrastructure-radio"></span>
+                        <span class="catalog-filters-description">Гостиница</span>
                       </label>
                     </li>
                     <li class="catalog-filters-item">
-                      <label class="housing">
-                        <input class="infrastructure-radio" type="radio" value="motel" name="housing-group">Мотель
+                      <label class="infrastructure">
+                        <input class="visually-hidden input-radio" type="radio" value="motel" name="housing-group">
+                        <span class="infrastructure-radio"></span>
+                        <span class="catalog-filters-description">Мотель</span>
                       </label>
                     </li>
                     <li class="catalog-filters-item">
-                      <label class="housing">
-                        <input class="infrastructure-radio" type="radio" value="apartments" name="housing-group">Апартаменты
+                      <label class="infrastructure">
+                        <input class="visually-hidden input-radio" type="radio" value="apartments" name="housing-group">
+                        <span class="infrastructure-radio"></span>
+                        <span class="catalog-filters-description">Апартаменты</span>
                       </label>
                     </li>
                   </ul>
@@ -115,18 +127,29 @@
                   <ul class="catalog-range-list">
                     <li class="catalog-range-item">
                       <label class="price">
-                        <input class="price-min" type="number" name="price-min" min="0" value="0">
+                        <input class="price-min" type="number" name="price-min" min="0" max="9999" value="0">
+                        <span>от</span>
                       </label>
                     </li>
-                    <li class="catalog-filters-item">
+                    <li class="catalog-range-item">
                       <label class="price">
-                        <input class="price-max" type="number" name="price-max" max="10000" value="9000">
+                        <input class="price-max" type="number" name="price-max" min="1" max="10000" value="9000">
+                        <span>до</span>
                       </label>
-                    </li>
-                    <li class="catalog-filters-item">
-                      <input class="price-range" type="range" name="price-range" min="0" max="10000" value="9000">
                     </li>
                   </ul>
+                  <div class="range">
+                    <div class="range-scale">
+                      <div class="range-price" style="width: 226px;">
+                        <button class="button-range range-price-min" type="button">
+                          <span class="visually-hidden">Изменить минимальную цену.</span>
+                        </button>
+                        <button class="button-range range-price-max" type="button">
+                          <span class="visually-hidden">Изменить максимальную цену.</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                 </fieldset>
                 <div class="filters-buttons">
                   <button class="button button-secondary" type="submit">Применить</button>
@@ -147,7 +170,7 @@
             <ul class="catalog-visually">
               <li class="catalog-visually-button">
                 <a class="catalog-link current" href="#">
-                  <svg class="catalog-icon" width="16" height="14" viewbox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="catalog-icon" aria-hidden="true" width="16" height="14" viewbox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4 0H0v6h4V0ZM16 0h-4v6h4V0ZM10 0H6v6h4V0ZM4 8H0v6h4V8ZM16 8h-4v6h4V8ZM10 8H6v6h4V8Z" fill="#000"/>
                   </svg>
                   <span class="visually-hidden">Показать карточки.</span>
@@ -155,7 +178,7 @@
               </li>
               <li class="catalog-visually-button">
                 <a class="catalog-link" href="#">
-                  <svg class="catalog-icon" width="16" height="14" viewbox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="catalog-icon" aria-hidden="true" width="16" height="14" viewbox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M16 12H0v2h16v-2ZM14 2v6H2V2h12Zm2-2H0v10h16V0Z" fill="#000"/>
                   </svg>
                   <span class="visually-hidden">Крупные карточки.</span>
@@ -163,7 +186,7 @@
               </li>
               <li class="catalog-visually-button">
                 <a class="catalog-link" href="#">
-                  <svg class="catalog-icon" width="16" height="14" viewbox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="catalog-icon" aria-hidden="true" width="16" height="14" viewbox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2 0H0v2h2V0ZM16 0H4v2h12V0ZM2 4H0v2h2V4ZM16 4H4v2h12V4ZM2 8H0v2h2V8ZM16 8H4v2h12V8ZM2 12H0v2h2v-2ZM16 12H4v2h12v-2Z" fill="#000"/>
                   </svg>
                   <span class="visually-hidden">Показать список.</span>
