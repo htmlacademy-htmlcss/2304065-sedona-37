@@ -1630,6 +1630,7 @@ img {
 
 .input-title {
   align-self: flex-start;
+  flex-wrap: wrap;
   width: 130px;
   padding: 12px 0 0;
   margin: 0;
@@ -1704,6 +1705,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   margin: 0 0 48px;
   padding: 0;
 }
@@ -1718,6 +1720,14 @@ img {
   padding: 0;
 
   border: none;
+}
+
+.input-title-adult {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  margin: 0;
+  padding: 0;
 }
 
 .button-people {
@@ -1814,8 +1824,8 @@ img {
 }
 
 .tooltip {
-  position: absolute;
-  left: 59px;
+  position: relative;
+  /*left: -94px;*/
 }
 
 .tooltip-description {
