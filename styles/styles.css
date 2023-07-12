@@ -29,6 +29,7 @@ body {
   font-weight: 400;
   color: #333333;
 
+  min-width: 1280px;
   height: 100%;
   margin: 0;
 
@@ -726,7 +727,7 @@ img {
           justify-content: center;
   width: 400px;
   min-height: 385px;
-  padding:102px 85px 0;
+  padding:102px 75px 0;
 
   text-align: center;
 }
