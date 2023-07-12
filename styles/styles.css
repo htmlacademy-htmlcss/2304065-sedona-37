@@ -210,7 +210,7 @@ img {
 
 .search .button-primary {
   width: 376px;
-  height: 52px;
+  min-height: 52px;
 
   font-size: 20px;
   line-height: 36px;
@@ -218,7 +218,7 @@ img {
 
 .subscribe-form .button-secondary {
   width: 232px;
-  height: 52px;
+  min-height: 52px;
 
   font-size: 20px;
   line-height: 36px;
@@ -228,7 +228,7 @@ img {
 
 .filters-buttons .button-secondary {
   width: 191px;
-  height: 36px;
+  min-height: 36px;
   margin: 0 0 30px;
 
   font-size: 16px;
@@ -237,7 +237,7 @@ img {
 
 .filters-buttons .button-light {
   width: 191px;
-  height: 36px;
+  min-height: 36px;
 
   font-size: 16px;
   line-height: 20px;
@@ -245,7 +245,7 @@ img {
 
 .products-cards-item .button-primary {
   width: 140px;
-  height: 36px;
+  min-height: 36px;
 
   font-size: 16px;
   line-height: 20px;
@@ -253,7 +253,7 @@ img {
 
 .products-cards-item .button-secondary {
   width: 140px;
-  height: 36px;
+  min-height: 36px;
 
   font-size: 16px;
   line-height: 20px;
@@ -261,7 +261,7 @@ img {
 
 .products-cards-item .button-current {
   width: 140px;
-  height: 36px;
+  min-height: 36px;
 
   font-size: 16px;
   line-height: 20px;
@@ -901,7 +901,7 @@ img {
           flex-grow: 1;
   padding: 12px 20px;
   width: 452px;
-  height: 52px;
+  min-height: 52px;
 
   font-family: inherit;
   font-size: 18px;
@@ -1020,6 +1020,9 @@ img {
 }
 
 .footer-contacts {
+  display: flex;
+  justify-content: center;
+  width: 720px;
   margin: 0;
   padding: 45px 0 35px;
 }
@@ -1648,7 +1651,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   width: 140px;
-  height: 37px;
+  min-height: 37px;
   margin: 0;
 
   font-size: 16px;
