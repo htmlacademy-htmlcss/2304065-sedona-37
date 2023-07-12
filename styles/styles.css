@@ -476,7 +476,7 @@ img {
 }
 
 .navigation-user .navigation-item:last-child {
-  margin: auto 0 auto 20px;
+  margin: 14px 0 auto 20px;
 }
 
 /* main hero*/
@@ -1697,8 +1697,8 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 60px;
-  height: 60px;
+  min-width: 60px;
+  min-height: 60px;
 
   font-size: 20px;
   line-height: 36px;
@@ -1722,8 +1722,8 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 60px;
-  height: 60px;
+  min-width: 60px;
+  min-height: 60px;
 
   font-size: 20px;
   line-height: 36px;
@@ -1746,8 +1746,8 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 60px;
-  height: 60px;
+  min-width: 60px;
+  min-height: 60px;
 
   font-size: 20px;
   line-height: 36px;
