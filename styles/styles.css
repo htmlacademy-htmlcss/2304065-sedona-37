@@ -39,7 +39,8 @@ html {
   height: 100%;
 }
 
-main {
+.main-index,
+.main-inner {
   flex-grow: 1;
 }
 
